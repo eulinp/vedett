@@ -1,0 +1,1540 @@
+﻿/*! normalize.css v3.0.0 | MIT License | git.io/normalize */html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%}
+body {
+    margin: 0;
+    background: url(../images/bg-body.jpg);
+    background-repeat: repeat-y;
+    background-size: 130%;
+}
+
+a{
+    color:black !important;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+header .logo{
+    margin-left: 15px;
+}
+header .logo img{
+    width: 120px;
+}
+
+header .pinguino{
+    margin-left: -92px;
+    margin-top: -25px;
+}
+header .pinguino img{
+    width: 50px;
+}
+
+.titulo{
+    transform: rotate(-3deg);
+    margin-top: 10px;
+}
+.titulopag{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 26pt;
+}
+
+.subtitulopag, .subtitulopag2{
+    font-family: arial black;
+    color: red;
+    font-size: 16pt;
+}
+
+.subtitulopag2{
+    text-decoration: underline;
+
+}
+
+.social{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+ul li{
+    display: inline;
+    margin-left: 15px;
+}
+
+.menufondo{
+    width: 90px;
+    position: absolute;
+    margin-left: -45%;
+    z-index: 1;
+}
+.menuletras{
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 5%;
+    font-family: arial black;
+    color: red;
+    font-size: 16pt;
+    z-index: 2;
+
+}
+
+
+
+.conocenuestrascervezas{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: -3%;
+    transform: rotate(-2deg);
+}
+.conocenuestrascervezas img{
+    position: absolute;
+    width: 200px;
+}
+
+
+.meetourbeersTitulo{
+    position: absolute;
+    display: block;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+    
+
+
+.meetourbeersSubtitulo{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 55px;
+    font-family: arial black;
+    color: red;
+    font-size: 22pt;
+}
+
+.textoalladodemeetourbeers{
+    position: absolute;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: -10%;
+
+}
+
+.textoalladodemeetourbeers .escrito{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.textoalladodemeetourbeers .escritorojo{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 12pt;
+    color: red;
+}
+
+.textoalladodemeetourbeers .escrito2{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.bottles{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: -2%;
+}
+.bottles img{
+    width: 50px;
+}
+.bottle1{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 130px;
+    transform: rotate(-3deg);
+}
+.bottle2{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 125px;
+    transform: rotate(-3deg);
+}
+.bottle3{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 120px;
+    transform: rotate(-3deg);
+}
+.bottle4{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 115px;
+    transform: rotate(-3deg);
+}
+.bottle5{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 110px;
+    transform: rotate(-3deg);
+}
+
+.cardbottle img{
+    width: 160px;
+    height: 50px;
+}
+
+.cardbottle{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.spancardbottle{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.insert{
+    position: absolute;
+    margin: 5px 5px;
+    font-family: arial black;
+    font-size: 8pt;
+}
+
+.yourcrazy{
+    position: absolute;
+    width: 100px;
+    margin: 5px 50px;
+    font-family: arial black;
+    color:rgb(0, 170, 28);
+    font-size: 8pt;
+    display: inline;
+}
+
+.spanabajo{
+    position: absolute;
+    width: 200px;
+    margin: 25px 10px;
+    font-family: arial black;
+    font-size: 8pt;
+}
+
+.ruleta{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.imagenfondoruleta{
+    
+    width: 250px;
+}
+
+.imagenruleta{
+    background: url(../images/bottle-sipa.png);
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+
+
+.otro-skin-1{
+    background: url(../images/bottle-sipa.png); 
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+.otro-skin-2{
+    background: url(../images/bottle-blond.png);    
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+.otro-skin-3{
+    background: url(../images/bottle-ipa.png);  
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+.otro-skin-4{
+    background: url(../images/can-water.png);   
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+.otro-skin-5{
+    background: url(../images/bottle-white.png); 
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px;    
+}
+
+.mensajealladoderuleta{
+    position: absolute;
+    margin-top: -10%;
+}
+
+.mensajealladoderuleta img{
+    width: 400px;
+}
+
+.mensajealladoderuletaletras{
+    position: absolute;
+    width: 500px;
+    margin: -60px 35px;
+    font-family: arial black;
+    font-size: 16pt;
+}
+
+.hashtag{
+    position: absolute;
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.hashtagtexto{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+.textodebajodevedett{
+    position: absolute;
+    margin-top: 2%;
+}
+
+.textodebajodevedett .texto1,.textodebajodevedett .texto2,.textodebajodevedett .texto3,.textodebajodevedett .texto4{
+    position: absolute;
+    width: 400px;
+}
+
+.textodebajodevedett .texto1 .titulorojo,.textodebajodevedett .texto2 .titulorojo,.textodebajodevedett .texto3 .titulorojo,.textodebajodevedett .texto4 .titulorojo{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 14pt;
+    color: rgb(255, 55, 55);
+}
+
+.textodebajodevedett .texto1 .subtitulo,.textodebajodevedett .texto2 .subtitulo,.textodebajodevedett .texto3 .subtitulo,.textodebajodevedett .texto4 .subtitulo{
+    font-family: arial;
+    font-size: 12pt;
+    color: rgb(39, 39, 39);
+    margin: -15px 0px;
+}
+
+.textodebajodevedett .texto1{
+    margin-top: 0px;
+}
+
+.textodebajodevedett .texto2{
+    margin-top: 80px;
+}
+.textodebajodevedett .texto3{
+    margin-top: 160px;
+}
+.textodebajodevedett .texto4{
+    margin-top: 240px;
+}
+
+.water{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 180px;
+
+}
+.water .cuadrado{
+    position: absolute;
+    background: white;
+    transform: rotate(-3deg);
+    width: 120px;
+    height: 45px;
+}
+
+.water a{
+    text-decoration: none;
+    color: #007bff;
+}
+.water a:link{
+    text-decoration: none;
+    color: #007bff;
+}
+.water p{
+    position: absolute;
+    width: 150px;
+    font-size: 14px;
+    font-family: arial black;
+    transform: rotate(-4deg);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.supermarket{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+.supermarket .tituloimagen img{
+    width: 250px;
+}
+.supermarket .tituloimagen{
+    position: absolute;
+}
+
+.supermarket .carritoimagen img{
+    width: 200px;
+}
+.supermarket .carritoimagen{
+    position: absolute;
+    margin-left: 200px;
+}
+
+.supermarket .texto{
+position: absolute;
+width: 260px;
+font-size: 14px;
+font-family: arial black;
+margin-top: 140px;
+margin-left: -60px;
+}
+.supermarket .textorojo{
+    color: rgb(255, 55, 55);
+}
+
+.botellafixed{
+    background-size: contain;
+    display: block;
+    background-image: url(../images/label-creator.png);
+    height: 208px;
+    right: 24px;
+    width: 110px;
+    z-index: 1001;
+    position: fixed;
+    bottom: 40px;
+}
+
+
+
+
+.bottles img:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-2px, 0px) rotate(1deg); }
+    20% { transform: translate(2px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-2px, 1px) rotate(0deg); }
+    70% { transform: translate(2px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+    
+  }
+  .bottles .cardbottle img:hover {
+    animation: shake 0.25s;
+    @keyframes shake {
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+        
+      }
+  }
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE BLOND////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1{
+    position: absolute;
+    background: url(../images/can-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -180%;
+    right: 30%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1{
+    position: absolute;
+    background: url(../images/kroon-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2{
+    position: absolute;
+    background: url(../images/kroon-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 100%;
+    left: 65%;
+    transform: rotate(-60deg);
+}
+
+.animal{
+    position: absolute;
+    background: url(../images/animal-vedett-penguin.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 80px;
+    top: 90%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2{
+    position: absolute;
+    background: url(../images/can-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+    transform: rotate(8deg);
+    top: 0%;
+    left: 10%;
+    z-index: -22;
+}
+
+.tarjeta{
+    position: absolute;
+    background: url(../images/img-card-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 90%;
+    right: 20%;
+    transform: rotate(12deg);
+}
+
+.divimagencentral{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.flechader{
+    position: absolute;
+    background: url(../images/arrow-right.png);
+    height: 400px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000;
+    right: 2%;
+    cursor: pointer;
+    top: 30%;
+}
+.flechaizq{
+    position: absolute;
+    background: url(../images/arrow-left.png);
+    height: 400px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000;
+    left: 2%;
+    cursor: pointer;
+    top: 30%;
+}
+
+.imagencentral{
+    background: url(../images/bottle-blond-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral .texto{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE IPA//////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1-1{
+    position: absolute;
+    background: url(../images/bottle-ipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(6deg);
+    top: -150%;
+    left: -300%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza-1{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto-1{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1-1{
+    position: absolute;
+    background: url(../images/kroon-ipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2-1{
+    position: absolute;
+    background: url(../images/kroon-ipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 100%;
+    left: 65%;
+    transform: rotate(-60deg);
+}
+
+.animal-1{
+    position: absolute;
+    background: url(../images/animal-vedett-ipa.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 80px;
+    top: 90%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2-1{
+    position: absolute;
+    background: url(../images/bottle-ipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -25%;
+    right: 10%;
+    z-index: -22;
+}
+
+.tarjeta-1{
+    position: absolute;
+    background: url(../images/img-card-ipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera-1{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 90%;
+    right: 20%;
+    transform: rotate(12deg);
+}
+
+.divimagencentral-1{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.imagencentral-1{
+    background: url(../images/bottle-ipa-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral-1 .texto-1{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral-1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+.copa-1 {
+    position: absolute;
+    background: url(../images/trophy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 140px;
+    width: 120px;
+    transform: rotate(20deg);
+    top: -145%;
+    left: 55%;
+    z-index: -22;
+}
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE SIPA//////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1-2{
+    position: absolute;
+    background: url(../images/bottle-sipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(6deg);
+    top: -150%;
+    left: -300%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza-2{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto-2{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1-2{
+    position: absolute;
+    background: url(../images/kroon-sipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2-2{
+    position: absolute;
+    background: url(../images/kroon-sipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 140%;
+    left: 55%;
+    transform: rotate(-60deg);
+}
+
+.animal-2{
+    position: absolute;
+    background: url(../images/animal-vedett-turtoise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 64px;
+    top: 130%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2-2{
+    position: absolute;
+    background: url(../images/bottle-sipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -25%;
+    right: 10%;
+    z-index: -22;
+}
+
+.tarjeta-2{
+    position: absolute;
+    background: url(../images/img-card-sipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera-2{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 80%;
+    right: 30%;
+    transform: rotate(-12deg);
+}
+
+.divimagencentral-2{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.imagencentral-2{
+    background: url(../images/bottle-sipa-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral-2 .texto-2{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral-2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+.copa-2 {
+    position: absolute;
+    background: url(../images/trophy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 140px;
+    width: 120px;
+    transform: rotate(20deg);
+    top: -145%;
+    left: 55%;
+    z-index: -22;
+}
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE WHITE//////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1-3{
+    position: absolute;
+    background: url(../images/bottle-white-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-6deg);
+    top: -150%;
+    left: -300%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza-3{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto-3{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1-3{
+    position: absolute;
+    background: url(../images/kroon-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2-3{
+    position: absolute;
+    background: url(../images/kroon-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 120%;
+    left: 55%;
+    transform: rotate(-60deg);
+}
+
+.animal-3{
+    position: absolute;
+    background: url(../images/animal-vedett-white.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 100%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2-3{
+    position: absolute;
+    background: url(../images/bottle-white-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -25%;
+    right: 10%;
+    z-index: -22;
+}
+
+.tarjeta-3{
+    position: absolute;
+    background: url(../images/img-card-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera-3{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 80%;
+    right: 30%;
+    transform: rotate(-12deg);
+}
+
+.divimagencentral-3{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.imagencentral-3{
+    background: url(../images/bottle-white-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral-3 .texto-3{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral-3{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+.copa-3 {
+    position: absolute;
+    background: url(../images/trophy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 140px;
+    width: 120px;
+    transform: rotate(20deg);
+    top: -10%;
+    left: 52%;
+    z-index: -22;
+}
+
+
+
+/*////////////////////////////////////////////////////////////
+//////////////////PAGINA DE LIQUIDO-DELICIOSO/////////////////
+////////////////////////////////////////////////////////////*/
+
+
+.cervezasaround{
+    margin-top: 10%; 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.num1{
+    background: url(../images/bottle-blond.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+.num1fondo{
+    position: absolute;
+    background: url(../images/bg-bottle-sprite.png);
+    width: 15%;
+    height: 420px;
+}
+.num2{
+    background: url(../images/bottle-ipa-overview-award.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+.num3{
+    background: url(../images/bottle-white-overview-award.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+
+.num4{
+    background: url(../images/bottle-sipa.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////////PUNTOS DE QUIEBRE/////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////*/
+
+/* mobile first */
+body { font-size: 14px; }
+
+/* tabletas */
+@media (min-width: 768px) {
+  body { font-size: 15px; }
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+  body { font-size: 16px; }
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+  body { font-size: 17px; }
+}
+
+.none{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vedett-label {
+    width: 125px;
+    -moz-transition: -moz-transform 440ms cubic-bezier(0.95, 0.05, 0.795, 0.035), opacity 220ms ease-in-out 110ms;
+    -o-transition: -o-transform 440ms cubic-bezier(0.95, 0.05, 0.795, 0.035), opacity 220ms ease-in-out 110ms;
+    -webkit-transition: -webkit-transform 440ms cubic-bezier(0.95, 0.05, 0.795, 0.035), opacity 220ms ease-in-out;
+    -webkit-transition-delay: 0s, 110ms;
+    transition: transform 440ms cubic-bezier(0.95, 0.05, 0.795, 0.035), opacity 220ms ease-in-out 110ms;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.vedett-label .vedett-label__top, .vedett-label .vedett-label__bottom {
+    border-width: 10px;
+    height: 54.74px;
+}
+.vedett-label .vedett-label__top {
+    border-top-left-radius: 72.5px;
+    border-top-right-radius: 72.5px;
+    border-bottom: 0;
+}
+.vedett-label .vedett-label__bottom {
+    border-bottom-left-radius: 72.5px;
+    border-bottom-right-radius: 72.5px;
+    border-top: 0;
+}
+@media only screen and (min-width: 1320px) {
+    .vedett-label {
+    width: 145px;
+    font-size: 20px;
+}
+.vedett-label .vedett-label__top, .vedett-label .vedett-label__bottom {
+    border-width: 10px;
+    height: 64.26px;
+}
+.vedett-label .vedett-label__top {
+    border-top-left-radius: 82.5px;
+    border-top-right-radius: 82.5px;
+    border-bottom: 0;
+}
+.vedett-label .vedett-label__bottom {
+    border-bottom-left-radius: 82.5px;
+    border-bottom-right-radius: 82.5px;
+    border-top: 0;
+}
+}
+@media only screen and (min-width: 1690px) {
+    .vedett-label {
+    width: 194px;
+}
+.vedett-label .vedett-label__top, .vedett-label .vedett-label__bottom {
+    border-width: 15px;
+    height: 85.204px;
+}
+.vedett-label .vedett-label__top {
+    border-top-left-radius: 112px;
+    border-top-right-radius: 112px;
+    border-bottom: 0;
+}
+.vedett-label .vedett-label__bottom {
+    border-bottom-left-radius: 112px;
+    border-bottom-right-radius: 112px;
+    border-top: 0;
+}
+}
+.vedett-label .vedett-label__top, .vedett-label .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label .vedett-label__top {
+    background-color: #79c100;
+    color: #000;
+}
+.vedett-label .vedett-label__bottom {
+    background-color: #01b9fd;
+    color: #000;
+}
+.vedett-label .vedett-label__middle {
+    background-color: #000;
+    color: #fff;
+}
+.vedett-label.is-hidden {
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    opacity: 0;
+}
+.vedett-label__top, .vedett-label__bottom, .vedett-label__middle {
+    -moz-transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+    -o-transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+    -webkit-transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+    transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+}
+.vedett-label__top, .vedett-label__bottom {
+    border-style: solid;
+    position: relative;
+}
+.vedett-label__top span, .vedett-label__bottom span {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    line-height: 1.1;
+}
+.vedett-label__top span {
+    bottom: 8px;
+}
+.vedett-label__bottom {
+    -moz-transition-delay: 400ms;
+    -o-transition-delay: 400ms;
+    -webkit-transition-delay: 400ms;
+    transition-delay: 400ms;
+}
+.vedett-label__bottom span {
+    top: 10px;
+}
+.vedett-label__middle {
+    -moz-transition-delay: 200ms;
+    -o-transition-delay: 200ms;
+    -webkit-transition-delay: 200ms;
+    transition-delay: 200ms;
+    line-height: 1.1;
+    padding: 8px;
+}
+.vedett-label--blond .vedett-label__top, .vedett-label--blond .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label--blond .vedett-label__top {
+    background-color: #fff;
+    color: #dac000;
+}
+.vedett-label--blond .vedett-label__bottom {
+    background-color: #fc291d;
+    color: #fff;
+}
+.vedett-label--blond .vedett-label__middle {
+    background-color: #000;
+    color: #fff;
+}
+.vedett-label--white .vedett-label__top, .vedett-label--white .vedett-label__bottom {
+    border-color: #c8c5ca;
+}
+.vedett-label--white .vedett-label__top {
+    background-color: #01b9fd;
+    color: #fff;
+}
+.vedett-label--white .vedett-label__bottom {
+    background-color: #f4e8c6;
+    color: #000;
+}
+.vedett-label--white .vedett-label__middle {
+    background-color: #fff;
+    color: #000;
+}
+.vedett-label--ipa .vedett-label__top, .vedett-label--ipa .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label--ipa .vedett-label__top {
+    background-color: #fb7d0a;
+    color: #fff;
+}
+.vedett-label--ipa .vedett-label__bottom {
+    background-color: #79c100;
+    color: #fff;
+}
+.vedett-label--ipa .vedett-label__middle {
+    background-color: #fff;
+    color: #000;
+}
+.vedett-label--kiwi .vedett-label__top, .vedett-label--kiwi .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label--kiwi .vedett-label__top {
+    background-color: #8AE1FC;
+    color: white;
+}
+.vedett-label--kiwi .vedett-label__bottom {
+    background-color: #7CBF24;
+    color: white;
+}
+.vedett-label--kiwi .vedett-label__middle {
+    background-color: #FCF13C;
+    color: black;
+}
+.vedett-label--martini .vedett-label__top, .vedett-label--martini .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label--martini .vedett-label__top {
+    background-color: #0C53B6;
+    color: black;
+}
+.vedett-label--martini .vedett-label__bottom {
+    background-color: #FC111E;
+    color: black;
+}
+.vedett-label--martini .vedett-label__middle {
+    background-color: black;
+    color: white;
+}
+.vedett-label--grass .vedett-label__top, .vedett-label--grass .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label--grass .vedett-label__top {
+    background-color: #7CBF24;
+    color: black;
+}
+.vedett-label--grass .vedett-label__bottom {
+    background-color: #FEF03B;
+    color: black;
+}
+.vedett-label--grass .vedett-label__middle {
+    background-color: black;
+    color: white;
+}
+.vedett-label--mondriano .vedett-label__top, .vedett-label--mondriano .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label--mondriano .vedett-label__top {
+    background-color: #0C53B6;
+    color: black;
+}
+.vedett-label--mondriano .vedett-label__bottom {
+    background-color: #FD7E23;
+    color: black;
+}
+.vedett-label--mondriano .vedett-label__middle {
+    background-color: #F7131C;
+    color: white;
+}
+.vedett-label--sunset .vedett-label__top, .vedett-label--sunset .vedett-label__bottom {
+    border-color: #dac000;
+}
+.vedett-label--sunset .vedett-label__top {
+    background-color: #FEF03B;
+    color: black;
+}
+.vedett-label--sunset .vedett-label__bottom {
+    background-color: #FC111E;
+    color: black;
+}
+.vedett-label--sunset .vedett-label__middle {
+    background-color: #0E51B4;
+    color: white;
+}
