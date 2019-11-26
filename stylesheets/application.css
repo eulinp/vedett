@@ -9,6 +9,23 @@ body {
     background-size: 130%;
 }
 
+@font-face {
+    font-family: Proxima Nova Alt Bold;
+    src: url(../webfonts/Proxima\ Nova\ Alt\ Bold.otf);
+    }
+@font-face {
+    font-family: Proxima Nova Alt Light;
+    src: url(../webfonts/Proxima\ Nova\ Alt\ Light.otf);
+    }
+@font-face {
+    font-family: Proxima Nova Alt Thin;
+    src: url(../webfonts/Proxima\ Nova\ Alt\ Thin.otf);
+    }
+@font-face {
+    font-family: Proxima Nova Alt Extrabold;
+    src: url(../webfonts/Proxima\ Nova\ Extrabold.otf);
+    }
+
 a{
     color:black !important;
 }
@@ -72,6 +89,8 @@ ul li{
     z-index: 1;
 }
 .menuletras{
+
+    font-weight: bold;
     position: absolute;
     margin-left: -40%;
     margin-top: 5%;
@@ -79,27 +98,91 @@ ul li{
     color: red;
     font-size: 16pt;
     z-index: 2;
+    cursor: pointer;
+}
 
+.menu{
+    display: none;
+    position: fixed;
+    background: #fff;   
+    height: 100%;
+    width: 20%;
+    right: 0px;
+    top:0px;
+    z-index: 100000;
+}
+
+.menuexit{
+    background: url(../images/mobile-nav-background.png);
+    width: 90px;
+    height: 59px;
+    cursor: pointer;
+    margin-top: 60px;
+    right: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 100;
+}
+
+.menuexit img{
+    width: 40px;
+    height: 40px;
+    width: 50%;
+    height: 50%;
+    margin: 15px 25px;
+    cursor: pointer;
+    z-index: 100;
+}
+.menu:before {
+    content: '';
+    background-color: #fff;
+    display: block;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 80%;
+    transform: skewX(-3deg);
+    border-left: 4px solid rgba(255, 255, 255, 0.17);
+    z-index: -10;
+}
+
+.textoMenu{
+    
+    height: 100%;
+    margin: 60% auto;
+    line-height: 200px;
+    text-align: center;
+    font-family: proxima;
+    font-size: 20pt;
+}
+
+.textoMenu h3{
+    margin: 50px 0px;
+    font-family: Proxima Nova Alt bold;
 }
 
 
 
 .conocenuestrascervezas{
     position: absolute;
-    margin-left: 18%;
-    margin-top: -3%;
+    margin-left: 10%;
+    margin-top: -2%;
     transform: rotate(-2deg);
 }
 .conocenuestrascervezas img{
     position: absolute;
-    width: 200px;
+    width: 340px;
+    height: 110px;
 }
 
 
 .meetourbeersTitulo{
     position: absolute;
     display: block;
-    width: 200px;
+    width: 400px;
     margin-left: 20px;
     margin-top: 15px;
     font-family: arial black;
@@ -112,7 +195,7 @@ ul li{
 
 .meetourbeersSubtitulo{
     position: absolute;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-top: 55px;
     font-family: arial black;
     color: red;
@@ -148,11 +231,12 @@ ul li{
 
 .bottles{
     position: absolute;
-    margin-top: 2%;
-    margin-left: -2%;
+    margin-top: 4%;
+    margin-left: -10%;
+    z-index: 0;
 }
 .bottles img{
-    width: 50px;
+    width: 80px;
 }
 .bottle1{
     position: absolute;
@@ -192,13 +276,13 @@ ul li{
 
 .cardbottle{
     position: absolute;
-    margin-left: 400px;
+    margin-left: 420px;
     margin-top: 120px;
 }
 
 .spancardbottle{
     position: absolute;
-    margin-left: 400px;
+    margin-left: 420px;
     margin-top: 120px;
 }
 
@@ -252,7 +336,7 @@ ul li{
 }
 
 
-.otro-skin-1{
+/* .otro-skin-1{
     background: url(../images/bottle-sipa.png); 
     margin-top: -30px;
     background-size: contain;
@@ -273,8 +357,8 @@ ul li{
     width: 120px;
     position: absolute;
     width: 120px; 
-}
-.otro-skin-3{
+} */
+.otro-skin-1{
     background: url(../images/bottle-ipa.png);  
     margin-top: -30px;
     background-size: contain;
@@ -285,7 +369,7 @@ ul li{
     position: absolute;
     width: 120px; 
 }
-.otro-skin-4{
+/* .otro-skin-4{
     background: url(../images/can-water.png);   
     margin-top: -30px;
     background-size: contain;
@@ -295,8 +379,8 @@ ul li{
     width: 120px;
     position: absolute;
     width: 120px; 
-}
-.otro-skin-5{
+} */
+.otro-skin-2{
     background: url(../images/bottle-white.png); 
     margin-top: -30px;
     background-size: contain;
@@ -310,7 +394,7 @@ ul li{
 
 .mensajealladoderuleta{
     position: absolute;
-    margin-top: -10%;
+    margin-top: -7%;
 }
 
 .mensajealladoderuleta img{
@@ -322,7 +406,7 @@ ul li{
     width: 500px;
     margin: -60px 35px;
     font-family: arial black;
-    font-size: 16pt;
+    font-size: 20pt;
 }
 
 .hashtag{
@@ -412,7 +496,7 @@ ul li{
 
 .supermarket{
     position: absolute;
-    margin-left: 60%;
+    margin-left: 65%;
     margin-top: 2%;
 }
 .supermarket .tituloimagen img{
@@ -430,7 +514,7 @@ ul li{
     margin-left: 200px;
 }
 
-.supermarket .texto{
+.supermarket .texto-mercado{
 position: absolute;
 width: 260px;
 font-size: 14px;
@@ -475,13 +559,12 @@ margin-left: -60px;
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
-    
   }
+  
   .bottles .cardbottle img:hover {
     animation: shake 0.25s;
     @keyframes shake {
         100% { transform: translate(1px, -2px) rotate(-1deg); }
-        
       }
   }
 
@@ -650,7 +733,7 @@ footer{
     transform: rotate(-5deg);
 }
 
-.divimagencentral .texto{
+.divimagencentral .texto-0{
     position: absolute;
     left:65%;
     top: 30%;
@@ -1196,9 +1279,9 @@ footer{
     background-position: 0% 0%;
     height: 140px;
     width: 120px;
-    transform: rotate(20deg);
-    top: -10%;
-    left: 52%;
+    transform: rotate(25deg);
+    top: -14%;
+    left: 56%;
     z-index: -22;
 }
 
@@ -1208,11 +1291,100 @@ footer{
 //////////////////PAGINA DE LIQUIDO-DELICIOSO/////////////////
 ////////////////////////////////////////////////////////////*/
 
+.cervezas{
+    position: relative;
+    width: 100%;
+}
+.texto{
+    margin-top: 15%; 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    user-select: none; 
+    display: none;
+}
+
+.texto p{
+	position: relative; 
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: arial black;
+    font-size: 60pt;
+    
+}
+.texto span{
+    color: red;
+
+}
+
+.rojo{
+    color: red;
+}
+
+.contenedorinvisible{
+    position:absolute;
+    left: -10%;
+    
+    animation: escribir 1.5s  infinite alternate;
+}
+
+@keyframes escribir {
+    from { left: 70% }
+    to { left:0 };
+    
+}
+
+.contenedorinvisible2{
+    position:absolute;
+    left: 10%;
+    animation: escribir2 1.5s infinite alternate;
+}
+
+@keyframes escribir2 {
+    from { left: 0% }
+    to { left: 70% }
+}
+
+
+.texto p{
+    color:black;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+
+
+
+
 
 .cervezasaround{
     margin-top: 10%; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: auto;
 }
@@ -1223,18 +1395,27 @@ footer{
     width: 15%;
     height: 420px;
 }
-.num1fondo{
-    position: absolute;
-    background: url(../images/bg-bottle-sprite.png);
-    width: 15%;
-    height: 420px;
-}
+
+.num1:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+  
+  
+
 .num2{
     background: url(../images/bottle-ipa-overview-award.png);
     background-size: cover;
     width: 15%;
     height: 420px;
 }
+
+.num2:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
 .num3{
     background: url(../images/bottle-white-overview-award.png);
     background-size: cover;
@@ -1242,12 +1423,158 @@ footer{
     height: 420px;
 }
 
+.num3:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+
 .num4{
     background: url(../images/bottle-sipa.png);
     background-size: cover;
     width: 15%;
     height: 420px;
 }
+
+.num4:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+
+
+
+/*////////////////////////////////////////////////////////////
+////////////////////////PAGINA DE WATER///////////////////////
+////////////////////////////////////////////////////////////*/
+
+.vedettwater{
+    position: absolute;
+    background: url(../images/flipflop_1-title.png);
+    width: 400px;
+    height: 100px;
+    background-repeat: no-repeat;
+    transform: rotate(3deg);
+    left: 20%;
+    top: 30%;
+}
+
+.vedettwatertitulo p{
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-family: arial black;
+    font-size: 20pt;
+    left: 20px;
+    top: 10%;
+}
+
+
+.vedettwatertitulo .colorwatertitulo{
+    top: 50%;
+    color: rgb(1, 185, 253);
+}
+
+.vedettwaterparrafo{
+    position: absolute;
+    text-align: left;
+    color: black;
+    font-family: arial black;
+    font-size: 12pt;
+    width: 300px;
+    left: 20px;
+    top: 110%;
+}
+
+.seehow{
+    position: absolute;
+    left: 58%;
+    top: 5%;
+}
+
+.seehowimg{
+    background: url(../images/water-video.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    transform: rotate(5deg);
+    z-index: -1;
+}
+
+.seehowdiv{
+    position: absolute;
+    background: url(../images/water-cta_2-title.png);
+    width: 300px;
+    height: 80px;
+    background-repeat: no-repeat;
+    left: 68px;
+    top: 300px;
+}
+
+.seehowtext p:first-child{
+    position: absolute;
+    text-align: left;
+    color: black;
+    font-family: arial black;
+    font-size: 20pt;
+    width: 300px;
+    left: 15px;
+    top: 10%;
+}
+
+.seehowtext p:last-child{
+    position: absolute;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: arial black;
+    font-size: 20pt;
+    width: 300px;
+    left: 10px;
+    top: 55%;
+}
+
+.seehowtext .colorwatertitulo{
+    color: rgb(1, 185, 253);
+}
+
+.seehowtextpeq{
+
+}
+
+.limited{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+.limited p{
+    position: absolute;
+    text-align: center;
+    font-size: 82pt;
+}
+.watercentral{
+    margin-top: 10%; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.imgwatercentral{
+    background: url(../images/can-water.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    transform: rotate(-8deg);
+    z-index: -1;
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////////

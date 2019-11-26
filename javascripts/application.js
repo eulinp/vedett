@@ -22,7 +22,7 @@ function spin_the_bottle () {
     var degreeCurrent = 0;
     var skinCurrent = 1;
     var skinPrevious = 1;
-    var skinMax = 5;
+    var skinMax = 2;
 
     var target = $('.imagenruleta');
 
@@ -95,4 +95,17 @@ $(".water").mouseover(function () {
 $(".water").mouseout(function () { 
 $(".water a .cuadrado").css("background","white");
   $(".water a p").css("color","#007bff");
+});
+
+
+
+
+//MENU
+$(".menuletras").click(function (e) { 
+  $(".menu").show("slow");
+});
+
+$(".menuexit").click(function (e) { 
+  $(".menu").hide("slow");
+  
 });
