@@ -509,7 +509,7 @@ ul li{
 }
 .supermarket .carritoimagen{
     position: absolute;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .supermarket .texto-mercado{
@@ -527,10 +527,10 @@ margin-left: -60px;
 .botellafixed{
     background-size: contain;
     display: block;
-    background-image: url(../images/label-creator.png);
+    background-image: url(../images/bottle-white.png);
     height: 208px;
     right: 24px;
-    width: 110px;
+    width: 80px;
     z-index: 1001;
     position: fixed;
     bottom: 40px;
