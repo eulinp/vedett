@@ -376,8 +376,13 @@ $(".num4").mouseout(function () {
 
 
 
+
 //MENU
 $(".menuletras").click(function (e) { 
+    $(".menu").show("slow");
+  });
+  
+  $(".menufondo").click(function (e) { 
     $(".menu").show("slow");
   });
   
