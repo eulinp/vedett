@@ -35,6 +35,19 @@ header{
     height: 100px;
 }
 
+/*//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////////PUNTOS DE QUIEBRE/////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////*/
+
+/* mobile first */
+@media (max-width: 767px) {
+    body { font-size: 15px; }
+  }
+/* tabletas */
+@media (min-width: 768px) {
+  
 header .logo{
     margin-left: 15px;
 }
@@ -1538,9 +1551,1547 @@ footer{
     color: rgb(1, 185, 253);
 }
 
-.seehowtextpeq{
+
+.limited{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+.limited p{
+    position: absolute;
+    text-align: center;
+    font-size: 82pt;
+}
+.watercentral{
+    margin-top: 10%; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.imgwatercentral{
+    background: url(../images/can-water.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    transform: rotate(-8deg);
+    z-index: -1;
+}
+}
+
+|
+
+/* pantallas grandes */
+@media (min-width: 1024px) {
+  
+header .logo{
+    margin-left: 15px;
+}
+header .logo img{
+    width: 120px;
+}
+
+header .pinguino{
+    margin-left: -92px;
+    margin-top: -25px;
+}
+header .pinguino img{
+    width: 50px;
+}
+
+.titulo{
+    transform: rotate(-3deg);
+    margin-top: 10px;
+}
+.titulopag{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 26pt;
+}
+
+.subtitulopag, .subtitulopag2{
+    font-family: arial black;
+    color: red;
+    font-size: 16pt;
+}
+
+.subtitulopag2{
+    text-decoration: underline;
 
 }
+
+.social{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+ul li{
+    display: inline;
+    margin-left: 15px;
+}
+
+.menufondo{
+    width: 90px;
+    position: absolute;
+    margin-left: -45%;
+    z-index: 1;
+}
+.menuletras{
+
+    font-weight: bold;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 5%;
+    font-family: arial black;
+    color: red;
+    font-size: 16pt;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+    position: fixed;
+    background: #fff;   
+    height: 100%;
+    width: 20%;
+    right: 0px;
+    top:0px;
+    z-index: 100000;
+}
+
+.menuexit{
+    background: url(../images/mobile-nav-background.png);
+    width: 90px;
+    height: 59px;
+    cursor: pointer;
+    margin-top: 60px;
+    right: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 100;
+}
+
+.menuexit img{
+    width: 40px;
+    height: 40px;
+    width: 50%;
+    height: 50%;
+    margin: 15px 25px;
+    cursor: pointer;
+    z-index: 100;
+}
+.menu:before {
+    content: '';
+    background-color: #fff;
+    display: block;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 80%;
+    transform: skewX(-3deg);
+    border-left: 4px solid rgba(255, 255, 255, 0.17);
+    z-index: -10;
+}
+
+.textoMenu{
+    
+    height: 100%;
+    margin: 60% auto;
+    line-height: 200px;
+    text-align: center;
+    font-family: proxima;
+    font-size: 20pt;
+}
+
+.textoMenu h3{
+    margin: 50px 0px;
+    font-family: Proxima Nova Alt bold;
+}
+
+
+
+.conocenuestrascervezas{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -2%;
+    transform: rotate(-2deg);
+}
+.conocenuestrascervezas img{
+    position: absolute;
+    width: 340px;
+    height: 110px;
+}
+
+
+.meetourbeersTitulo{
+    position: absolute;
+    display: block;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+    
+
+
+.meetourbeersSubtitulo{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 55px;
+    font-family: arial black;
+    color: red;
+    font-size: 22pt;
+}
+
+.textoalladodemeetourbeers{
+    position: absolute;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: -10%;
+
+}
+
+.textoalladodemeetourbeers .escrito{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.textoalladodemeetourbeers .escritorojo{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 12pt;
+    color: red;
+}
+
+.textoalladodemeetourbeers .escrito2{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.bottles{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -10%;
+    z-index: 0;
+}
+.bottles img{
+    width: 80px;
+}
+.bottle1{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 130px;
+    transform: rotate(-3deg);
+}
+.bottle2{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 125px;
+    transform: rotate(-3deg);
+}
+.bottle3{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 120px;
+    transform: rotate(-3deg);
+}
+.bottle4{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 115px;
+    transform: rotate(-3deg);
+}
+.bottle5{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 110px;
+    transform: rotate(-3deg);
+}
+
+.cardbottle img{
+    width: 160px;
+    height: 50px;
+}
+
+.cardbottle{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 120px;
+}
+
+.spancardbottle{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 120px;
+}
+
+.insert{
+    position: absolute;
+    margin: 5px 5px;
+    font-family: arial black;
+    font-size: 8pt;
+}
+
+.yourcrazy{
+    position: absolute;
+    width: 100px;
+    margin: 5px 50px;
+    font-family: arial black;
+    color:rgb(0, 170, 28);
+    font-size: 8pt;
+    display: inline;
+}
+
+.spanabajo{
+    position: absolute;
+    width: 200px;
+    margin: 25px 10px;
+    font-family: arial black;
+    font-size: 8pt;
+}
+
+.ruleta{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.imagenfondoruleta{
+    
+    width: 250px;
+}
+
+.imagenruleta{
+    background: url(../images/bottle-ipa.png);
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+
+
+/* .otro-skin-1{
+    background: url(../images/bottle-sipa.png); 
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+.otro-skin-2{
+    background: url(../images/bottle-blond.png);    
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+} */
+.otro-skin-1{
+    background: url(../images/bottle-ipa.png);  
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+}
+/* .otro-skin-4{
+    background: url(../images/can-water.png);   
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px; 
+} */
+.otro-skin-2{
+    background: url(../images/bottle-white.png); 
+    margin-top: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 120px;
+    position: absolute;
+    width: 120px;    
+}
+
+.mensajealladoderuleta{
+    position: absolute;
+    margin-top: -7%;
+}
+
+.mensajealladoderuleta img{
+    width: 400px;
+}
+
+.mensajealladoderuletaletras{
+    position: absolute;
+    width: 500px;
+    margin: -60px 35px;
+    font-family: arial black;
+    font-size: 20pt;
+}
+
+.hashtag{
+    position: absolute;
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.hashtagtexto{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+.textodebajodevedett{
+    position: absolute;
+    margin-top: 2%;
+}
+
+.textodebajodevedett .texto1,.textodebajodevedett .texto2,.textodebajodevedett .texto3,.textodebajodevedett .texto4{
+    position: absolute;
+    width: 400px;
+}
+
+.textodebajodevedett .texto1 .titulorojo,.textodebajodevedett .texto2 .titulorojo,.textodebajodevedett .texto3 .titulorojo,.textodebajodevedett .texto4 .titulorojo{
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 14pt;
+    color: rgb(255, 55, 55);
+}
+
+.textodebajodevedett .texto1 .subtitulo,.textodebajodevedett .texto2 .subtitulo,.textodebajodevedett .texto3 .subtitulo,.textodebajodevedett .texto4 .subtitulo{
+    font-family: arial;
+    font-size: 12pt;
+    color: rgb(39, 39, 39);
+    margin: -15px 0px;
+}
+
+.textodebajodevedett .texto1{
+    margin-top: 0px;
+}
+
+.textodebajodevedett .texto2{
+    margin-top: 80px;
+}
+.textodebajodevedett .texto3{
+    margin-top: 160px;
+}
+.textodebajodevedett .texto4{
+    margin-top: 240px;
+}
+
+.water{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 180px;
+
+}
+.water .cuadrado{
+    position: absolute;
+    background: white;
+    transform: rotate(-3deg);
+    width: 120px;
+    height: 45px;
+}
+
+.water a{
+    text-decoration: none;
+    color: #007bff;
+}
+.water a:link{
+    text-decoration: none;
+    color: #007bff;
+}
+.water p{
+    position: absolute;
+    width: 150px;
+    font-size: 14px;
+    font-family: arial black;
+    transform: rotate(-4deg);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.supermarket{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 2%;
+}
+.supermarket .tituloimagen img{
+    width: 250px;
+}
+.supermarket .tituloimagen{
+    position: absolute;
+}
+
+.supermarket .carritoimagen img{
+    width: 200px;
+}
+.supermarket .carritoimagen{
+    position: absolute;
+    margin-left: 150px;
+}
+
+.supermarket .texto-mercado{
+position: absolute;
+width: 260px;
+font-size: 14px;
+font-family: arial black;
+margin-top: 140px;
+margin-left: -60px;
+}
+.supermarket .textorojo{
+    color: rgb(255, 55, 55);
+}
+
+.botellafixed{
+    background-size: contain;
+    display: block;
+    background-image: url(../images/bottle-white.png);
+    height: 208px;
+    right: 24px;
+    width: 80px;
+    z-index: 1001;
+    position: fixed;
+    bottom: 40px;
+}
+
+
+
+
+.bottles img:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-2px, 0px) rotate(1deg); }
+    20% { transform: translate(2px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-2px, 1px) rotate(0deg); }
+    70% { transform: translate(2px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .bottles .cardbottle img:hover {
+    animation: shake 0.25s;
+    @keyframes shake {
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+  }
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE BLOND////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1{
+    position: absolute;
+    background: url(../images/can-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -180%;
+    right: 30%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1{
+    position: absolute;
+    background: url(../images/kroon-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2{
+    position: absolute;
+    background: url(../images/kroon-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 100%;
+    left: 65%;
+    transform: rotate(-60deg);
+}
+
+.animal{
+    position: absolute;
+    background: url(../images/animal-vedett-penguin.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 80px;
+    top: 90%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2{
+    position: absolute;
+    background: url(../images/can-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+    transform: rotate(8deg);
+    top: 0%;
+    left: 10%;
+    z-index: -22;
+}
+
+.tarjeta{
+    position: absolute;
+    background: url(../images/img-card-blond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 90%;
+    right: 20%;
+    transform: rotate(12deg);
+}
+
+.divimagencentral{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.flechader{
+    position: absolute;
+    background: url(../images/arrow-right.png);
+    height: 400px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000;
+    right: 2%;
+    cursor: pointer;
+    top: 30%;
+}
+.flechaizq{
+    position: absolute;
+    background: url(../images/arrow-left.png);
+    height: 400px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000;
+    left: 2%;
+    cursor: pointer;
+    top: 30%;
+}
+
+.imagencentral{
+    background: url(../images/bottle-blond-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral .texto-0{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE IPA//////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1-1{
+    position: absolute;
+    background: url(../images/bottle-ipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(6deg);
+    top: -150%;
+    left: -300%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza-1{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto-1{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1-1{
+    position: absolute;
+    background: url(../images/kroon-ipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2-1{
+    position: absolute;
+    background: url(../images/kroon-ipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 100%;
+    left: 65%;
+    transform: rotate(-60deg);
+}
+
+.animal-1{
+    position: absolute;
+    background: url(../images/animal-vedett-ipa.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 80px;
+    top: 90%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2-1{
+    position: absolute;
+    background: url(../images/bottle-ipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -25%;
+    right: 10%;
+    z-index: -22;
+}
+
+.tarjeta-1{
+    position: absolute;
+    background: url(../images/img-card-ipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera-1{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 90%;
+    right: 20%;
+    transform: rotate(12deg);
+}
+
+.divimagencentral-1{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.imagencentral-1{
+    background: url(../images/bottle-ipa-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral-1 .texto-1{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral-1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+.copa-1 {
+    position: absolute;
+    background: url(../images/trophy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 140px;
+    width: 120px;
+    transform: rotate(20deg);
+    top: -145%;
+    left: 55%;
+    z-index: -22;
+}
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE SIPA//////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1-2{
+    position: absolute;
+    background: url(../images/bottle-sipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(6deg);
+    top: -150%;
+    left: -300%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza-2{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto-2{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1-2{
+    position: absolute;
+    background: url(../images/kroon-sipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2-2{
+    position: absolute;
+    background: url(../images/kroon-sipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 140%;
+    left: 55%;
+    transform: rotate(-60deg);
+}
+
+.animal-2{
+    position: absolute;
+    background: url(../images/animal-vedett-turtoise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 64px;
+    top: 130%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2-2{
+    position: absolute;
+    background: url(../images/bottle-sipa-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -25%;
+    right: 10%;
+    z-index: -22;
+}
+
+.tarjeta-2{
+    position: absolute;
+    background: url(../images/img-card-sipa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera-2{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 80%;
+    right: 30%;
+    transform: rotate(-12deg);
+}
+
+.divimagencentral-2{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.imagencentral-2{
+    background: url(../images/bottle-sipa-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral-2 .texto-2{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral-2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+.copa-2 {
+    position: absolute;
+    background: url(../images/trophy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 140px;
+    width: 120px;
+    transform: rotate(20deg);
+    top: -145%;
+    left: 55%;
+    z-index: -22;
+}
+
+/*////////////////////////////////////////////////////////////
+///////////////////////PAGINA DE WHITE//////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.lata1-3{
+    position: absolute;
+    background: url(../images/bottle-white-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-6deg);
+    top: -150%;
+    left: -300%;
+    z-index: -22;
+}
+
+
+                
+.hashtagcerveza-3{
+    position: absolute;
+    top: 90%;
+    left: -20%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+}
+
+.hashtagtexto-3{
+    font-family: arial black;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(161, 147, 147, 0.534);
+    
+}
+
+
+.chapa1-3{
+    position: absolute;
+    background: url(../images/kroon-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+}
+
+.chapa2-3{
+    position: absolute;
+    background: url(../images/kroon-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    top: 120%;
+    left: 55%;
+    transform: rotate(-60deg);
+}
+
+.animal-3{
+    position: absolute;
+    background: url(../images/animal-vedett-white.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 100%;
+    left: 75%;
+}
+
+footer{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+
+}
+
+.lata2-3{
+    position: absolute;
+    background: url(../images/bottle-white-detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    top: -25%;
+    right: 10%;
+    z-index: -22;
+}
+
+.tarjeta-3{
+    position: absolute;
+    background: url(../images/img-card-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    top: 20%;
+    left: 15%;
+}
+.casetera-3{
+    position: absolute;
+    background: url(../images/img-vhs-tape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 90%;
+    top: 80%;
+    right: 30%;
+    transform: rotate(-12deg);
+}
+
+.divimagencentral-3{
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.imagencentral-3{
+    background: url(../images/bottle-white-detail.png);
+    margin-top: -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
+.divimagencentral-3 .texto-3{
+    position: absolute;
+    left:65%;
+    top: 30%;
+    width: 300px;
+    color: rgb(53, 1, 151);
+    text-shadow: 1px 1px rgb(32, 2, 202);
+    font-size: 12pt;
+    font-family: arial;
+    transform: rotate(-3deg);
+}
+
+.titulocentral-3{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-size: 60pt;
+    font-family: arial black;
+    transform: rotate(-2deg);
+    margin-top: -40px;
+    z-index: 200;
+}
+
+.copa-3 {
+    position: absolute;
+    background: url(../images/trophy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 140px;
+    width: 120px;
+    transform: rotate(25deg);
+    top: -14%;
+    left: 56%;
+    z-index: -22;
+}
+
+
+
+/*////////////////////////////////////////////////////////////
+//////////////////PAGINA DE LIQUIDO-DELICIOSO/////////////////
+////////////////////////////////////////////////////////////*/
+
+.cervezas{
+    position: relative;
+    width: 100%;
+}
+.texto{
+    margin-top: 15%; 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    user-select: none; 
+    display: none;
+}
+
+.texto p{
+	position: relative; 
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: arial black;
+    font-size: 60pt;
+    
+}
+.texto span{
+    color: red;
+
+}
+
+.rojo{
+    color: red;
+}
+
+.contenedorinvisible{
+    position:absolute;
+    left: -10%;
+    
+    animation: escribir 1.5s  infinite alternate;
+}
+
+@keyframes escribir {
+    from { left: 70% }
+    to { left:0 };
+    
+}
+
+.contenedorinvisible2{
+    position:absolute;
+    left: 10%;
+    animation: escribir2 1.5s infinite alternate;
+}
+
+@keyframes escribir2 {
+    from { left: 0% }
+    to { left: 70% }
+}
+
+
+.texto p{
+    color:black;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  rgb(217, 255, 0),
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+
+
+
+
+
+.cervezasaround{
+    margin-top: 10%; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.num1{
+    background: url(../images/bottle-blond.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+
+.num1:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+  
+  
+
+.num2{
+    background: url(../images/bottle-ipa-overview-award.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+
+.num2:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+.num3{
+    background: url(../images/bottle-white-overview-award.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+
+.num3:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+
+.num4{
+    background: url(../images/bottle-sipa.png);
+    background-size: cover;
+    width: 15%;
+    height: 420px;
+}
+
+.num4:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    filter:blur(0.5px)
+  }
+
+
+
+/*////////////////////////////////////////////////////////////
+////////////////////////PAGINA DE WATER///////////////////////
+////////////////////////////////////////////////////////////*/
+
+.vedettwater{
+    position: absolute;
+    background: url(../images/flipflop_1-title.png);
+    width: 400px;
+    height: 100px;
+    background-repeat: no-repeat;
+    transform: rotate(3deg);
+    left: 20%;
+    top: 30%;
+}
+
+.vedettwatertitulo p{
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-family: arial black;
+    font-size: 20pt;
+    left: 20px;
+    top: 10%;
+}
+
+
+.vedettwatertitulo .colorwatertitulo{
+    top: 50%;
+    color: rgb(1, 185, 253);
+}
+
+.vedettwaterparrafo{
+    position: absolute;
+    text-align: left;
+    color: black;
+    font-family: arial black;
+    font-size: 12pt;
+    width: 300px;
+    left: 20px;
+    top: 110%;
+}
+
+.seehow{
+    position: absolute;
+    left: 58%;
+    top: 5%;
+}
+
+.seehowimg{
+    background: url(../images/water-video.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    transform: rotate(5deg);
+    z-index: -1;
+}
+
+.seehowdiv{
+    position: absolute;
+    background: url(../images/water-cta_2-title.png);
+    width: 300px;
+    height: 80px;
+    background-repeat: no-repeat;
+    left: 68px;
+    top: 300px;
+}
+
+.seehowtext p:first-child{
+    position: absolute;
+    text-align: left;
+    color: black;
+    font-family: arial black;
+    font-size: 20pt;
+    width: 300px;
+    left: 15px;
+    top: 10%;
+}
+
+.seehowtext p:last-child{
+    position: absolute;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: arial black;
+    font-size: 20pt;
+    width: 300px;
+    left: 10px;
+    top: 55%;
+}
+
+.seehowtext .colorwatertitulo{
+    color: rgb(1, 185, 253);
+}
+
 
 .limited{
     margin: 0px;
@@ -1573,30 +3124,6 @@ footer{
     z-index: -1;
 }
 
-
-
-/*//////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-//////////////////////////PUNTOS DE QUIEBRE/////////////////////////////
-////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////*/
-
-/* mobile first */
-body { font-size: 14px; }
-
-/* tabletas */
-@media (min-width: 768px) {
-  body { font-size: 15px; }
-}
-
-/* escritorio normales */
-@media (min-width: 992px) {
-  body { font-size: 16px; }
-}
-
-/* pantallas grandes */
-@media (min-width: 1200px) {
-  body { font-size: 17px; }
 }
 
 .none{
