@@ -3,15 +3,12 @@
 /////////////////////////////////////////////////////////////////
 
 $(window).on('load', function(){
-
-    setTimeout(() => {
-        blond();
-    }, 300);
+    ipa();
 });
 
 
-$("#blond").show();
-$("#ipa").hide();
+$("#blond").hide();
+$("#ipa").show();
 $("#sipa").hide();
 $("#white").hide();
 var index = 1;
@@ -19,15 +16,11 @@ var index = 1;
 $(".flechaizq").on( "click", function() {
     index --;
     if(index < 1){
-        index = 4;
+        index = 2;
     }
     if(index == 1){
-        blond();
-    }else if(index == 2){
         ipa();
-    }else if(index == 3){
-        sipa();
-    }else if(index == 4){
+    }else if(index == 2){
         white();
     }else{
         index = 1;
@@ -37,16 +30,12 @@ $(".flechaizq").on( "click", function() {
 
   $(".flechader").on( "click", function() {
     index ++;
-    if(index > 4){
+    if(index > 2){
         index = 1;
     }
     if(index == 1){
-        blond();
-    }else if(index == 2){
         ipa();
-    }else if(index == 3){
-        sipa();
-    }else if(index == 4){
+    }else if(index == 2){
         white();
     }else{
         index = 1;
@@ -112,54 +101,145 @@ $(".flechaizq").on( "click", function() {
       /////////////////////////////////////////////
     /////////EFECTOS IPA////////////////////////////
     ///////////////////////////////////////////////
+    if (window.matchMedia("(max-width: 767px)").matches) {
+            function ipa(){
+                $("#blond").hide("slow");
+                $("#ipa").show("slow");
+                $("#sipa").hide("slow");
+                $("#white").hide("slow");
+            ///////////////////////////////////////////////
+                $(".tarjeta-1").animate({
+                    "top": "50%",
+                    "left": "65%"
+                },1500).animate({
+                        "top": "20%",
+                        "left": "15%"
+                },"fast");
 
-  function ipa(){
-    $("#blond").hide("slow");
-    $("#ipa").show("slow");
-    $("#sipa").hide("slow");
-    $("#white").hide("slow");
-///////////////////////////////////////////////
-    $(".tarjeta-1").animate({
-        "top": "50%",
-        "left": "65%"
-    },1500).animate({
-            "top": "20%",
-            "left": "15%"
-    },"fast");
+                $(".imagencentral-1").animate({
+                    "margin-top": "500px"
+                },1200).animate({
+                    "margin-top": "-170px"
+                },"slow");
 
-    $(".imagencentral-1").animate({
-        "margin-top": "500px"
-    },1200).animate({
-        "margin-top": "-200px"
-    },"slow");
+                $(".titulocentral-1").animate({
+                    "margin-top": "-700px"
+                },800).animate({
+                    "margin-top": "-40px"
+                },"slow");
 
-    $(".titulocentral-1").animate({
-        "margin-top": "-700px"
-    },800).animate({
-        "margin-top": "-40px"
-    },"slow");
+                $(".divimagencentral-1 .texto-1").animate({
+                    "left":"25%",
+                    "top": "90%"
+                },800).animate({
+                    "left":"15%",
+                    "top": "1000px"
+                },"slow");
 
-    $(".divimagencentral-1 .texto-1").animate({
-        "left":"25%",
-        "top": "90%"
-    },800).animate({
-        "left":"65%",
-        "top": "30%"
-    },"slow");
+                $(".casetera-1").animate({
+                    "top": "90%",
+                    "right":"-75px"
+                },800).animate({
+                    "top": "90%",
+                    "right":"0px"
+                },"slow");
+            ////////////////////////////////////////////////////
+                
 
-    $(".casetera-1").animate({
-        "top": "90%",
-        "right":"-75%"
-    },800).animate({
-        "top": "90%",
-        "right":"20%"
-    },"slow");
-////////////////////////////////////////////////////
-    
+            }
+    }else if(window.matchMedia("(max-width: 768px)").matches){
+        function ipa(){
+            $("#blond").hide("slow");
+            $("#ipa").show("slow");
+            $("#sipa").hide("slow");
+            $("#white").hide("slow");
+        ///////////////////////////////////////////////
+            $(".tarjeta-1").animate({
+                "top": "50%",
+                "left": "65%"
+            },1500).animate({
+                    "top": "20%",
+                    "left": "15%"
+            },"fast");
 
-  }
+            $(".imagencentral-1").animate({
+                "margin-top": "500px"
+            },1200).animate({
+                "margin-top": "-200px"
+            },"slow");
 
+            $(".titulocentral-1").animate({
+                "margin-top": "-700px"
+            },800).animate({
+                "margin-top": "-40px"
+            },"slow");
 
+            $(".divimagencentral-1 .texto-1").animate({
+                "left":"25%",
+                "top": "90%"
+            },800).animate({
+                "left":"65%",
+                "top": "30%"
+            },"slow");
+
+            $(".casetera-1").animate({
+                "top": "90%",
+                "right":"-75%"
+            },800).animate({
+                "top": "90%",
+                "right":"20%"
+            },"slow");
+        ////////////////////////////////////////////////////
+            
+
+        }
+    }else{
+        function ipa(){
+            $("#blond").hide("slow");
+            $("#ipa").show("slow");
+            $("#sipa").hide("slow");
+            $("#white").hide("slow");
+        ///////////////////////////////////////////////
+            $(".tarjeta-1").animate({
+                "top": "50%",
+                "left": "65%"
+            },1500).animate({
+                    "top": "20%",
+                    "left": "15%"
+            },"fast");
+
+            $(".imagencentral-1").animate({
+                "margin-top": "500px"
+            },1200).animate({
+                "margin-top": "-200px"
+            },"slow");
+
+            $(".titulocentral-1").animate({
+                "margin-top": "-700px"
+            },800).animate({
+                "margin-top": "-40px"
+            },"slow");
+
+            $(".divimagencentral-1 .texto-1").animate({
+                "left":"25%",
+                "top": "90%"
+            },800).animate({
+                "left":"65%",
+                "top": "30%"
+            },"slow");
+
+            $(".casetera-1").animate({
+                "top": "90%",
+                "right":"-75%"
+            },800).animate({
+                "top": "90%",
+                "right":"20%"
+            },"slow");
+        ////////////////////////////////////////////////////
+            
+
+        }
+    }
 
         /////////////////////////////////////////////
     /////////EFECTOS SIPA///////////////////////////
