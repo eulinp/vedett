@@ -105,6 +105,10 @@ $(".menuletras").click(function (e) {
   $(".menu").show("slow");
 });
 
+$(".menufondo").click(function (e) { 
+  $(".menu").show("slow");
+});
+
 $(".menuexit").click(function (e) { 
   $(".menu").hide("slow");
   
