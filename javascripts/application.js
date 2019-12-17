@@ -113,3 +113,18 @@ $(".menuexit").click(function (e) {
   $(".menu").hide("slow");
   
 });
+
+
+
+
+if (window.matchMedia("(max-width: 767px)").matches) {
+$(function() {
+
+  $(window).scroll(function() {
+    $("#bottle1").effect( "shake", {times:6}, 700 );
+  });
+
+});
+
+
+}

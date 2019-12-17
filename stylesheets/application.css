@@ -4504,6 +4504,13 @@ header{
         filter:blur(0.5px)
       }
       
+      .bottleshake1 {
+        animation: shake 0.25s;
+        animation-iteration-count: infinite;
+        filter:blur(0.5px)
+      }
+      
+
       
     
     .num2{
