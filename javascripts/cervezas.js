@@ -46,56 +46,7 @@ $(".flechaizq").on( "click", function() {
 
 
 
-   /////////////////////////////////////////////
-    /////////EFECTOS BLOND///////////////////////
-    ////////////////////////////////////////////
-  function blond(){
-    
-    $("#blond").show("slow");
-    $("#ipa").hide("slow");
-    $("#sipa").hide("slow");
-    $("#white").hide("slow");
 
- ///////////////////////////////////////////////
-    $(".tarjeta").animate({
-        "top": "50%",
-        "left": "65%"
-    },1500).animate({
-            "top": "20%",
-            "left": "15%"
-    },"fast");
-
-    $(".imagencentral").animate({
-        "margin-top": "500px"
-    },1200).animate({
-        "margin-top": "-200px"
-    },"slow");
-
-    $(".titulocentral").animate({
-        "margin-top": "-700px"
-    },800).animate({
-        "margin-top": "-40px"
-    },"slow");
-
-    $(".divimagencentral .texto-0").animate({
-        "left":"25%",
-        "top": "90%"
-    },800).animate({
-        "left":"65%",
-        "top": "30%"
-    },"slow");
-
-    $(".casetera").animate({
-        "top": "90%",
-        "right":"-75%"
-    },800).animate({
-        "top": "90%",
-        "right":"20%"
-    },"slow");
-////////////////////////////////////////////////////////
-
-    
-  }
 
 
       /////////////////////////////////////////////
@@ -147,52 +98,51 @@ $(".flechaizq").on( "click", function() {
                 
 
             }
-    }else if(window.matchMedia("(max-width: 768px)").matches){
-        function ipa(){
-            $("#blond").hide("slow");
-            $("#ipa").show("slow");
-            $("#sipa").hide("slow");
-            $("#white").hide("slow");
-        ///////////////////////////////////////////////
-            $(".tarjeta-1").animate({
-                "top": "50%",
-                "left": "65%"
-            },1500).animate({
-                    "top": "20%",
-                    "left": "15%"
-            },"fast");
+            function white(){
+                $("#blond").hide("slow");
+                $("#ipa").hide("slow");
+                $("#sipa").hide("slow");
+                $("#white").show("slow");
+            ///////////////////////////////////////////////
+                $(".tarjeta-3").animate({
+                    "top": "50%",
+                    "left": "65%"
+                },1500).animate({
+                        "top": "20%",
+                        "left": "15%"
+                },"fast");
 
-            $(".imagencentral-1").animate({
-                "margin-top": "500px"
-            },1200).animate({
-                "margin-top": "-200px"
-            },"slow");
+                $(".imagencentral-3").animate({
+                    "margin-top": "500px"
+                },1200).animate({
+                    "margin-top": "-170px"
+                },"slow");
 
-            $(".titulocentral-1").animate({
-                "margin-top": "-700px"
-            },800).animate({
-                "margin-top": "-40px"
-            },"slow");
+                $(".titulocentral-3").animate({
+                    "margin-top": "-700px"
+                },800).animate({
+                    "margin-top": "-40px"
+                },"slow");
 
-            $(".divimagencentral-1 .texto-1").animate({
-                "left":"25%",
-                "top": "90%"
-            },800).animate({
-                "left":"65%",
-                "top": "30%"
-            },"slow");
+                $(".divimagencentral-3 .texto-3").animate({
+                    "left":"25%",
+                    "top": "90%"
+                },800).animate({
+                    "left":"15%",
+                    "top": "1000px"
+                },"slow");
 
-            $(".casetera-1").animate({
-                "top": "90%",
-                "right":"-75%"
-            },800).animate({
-                "top": "90%",
-                "right":"20%"
-            },"slow");
-        ////////////////////////////////////////////////////
-            
+                $(".casetera-3").animate({
+                    "top": "90%",
+                    "right":"-75px"
+                },800).animate({
+                    "top": "90%",
+                    "right":"0px"
+                },"slow");
+            ////////////////////////////////////////////////////
+                
 
-        }
+            }
     }else{
         function ipa(){
             $("#blond").hide("slow");
@@ -239,108 +189,56 @@ $(".flechaizq").on( "click", function() {
             
 
         }
+        function white(){
+            $("#blond").hide("slow");
+            $("#ipa").hide("slow");
+            $("#sipa").hide("slow");
+            $("#white").show("slow");
+        ///////////////////////////////////////////////
+            $(".tarjeta-3").animate({
+                "top": "50%",
+                "left": "65%"
+            },1500).animate({
+                    "top": "20%",
+                    "left": "15%"
+            },"fast");
+
+            $(".imagencentral-3").animate({
+                "margin-top": "500px"
+            },1200).animate({
+                "margin-top": "-200px"
+            },"slow");
+
+            $(".titulocentral-3").animate({
+                "margin-top": "-700px"
+            },800).animate({
+                "margin-top": "-40px"
+            },"slow");
+
+            $(".divimagencentral-3 .texto-3").animate({
+                "left":"25%",
+                "top": "90%"
+            },800).animate({
+                "left":"65%",
+                "top": "30%"
+            },"slow");
+
+            $(".casetera-3").animate({
+                "top": "90%",
+                "right":"-75%"
+            },800).animate({
+                "top": "90%",
+                "right":"20%"
+            },"slow");
+        ////////////////////////////////////////////////////
+            
+
+        }
     }
 
-        /////////////////////////////////////////////
-    /////////EFECTOS SIPA///////////////////////////
-    ////////////////////////////////////////////
-
-  function sipa(){
-    $("#blond").hide("slow");
-    $("#ipa").hide("slow");
-    $("#sipa").show("slow");
-    $("#white").hide("slow");
-    ////////////////////////////////////////
-    $(".tarjeta-2").animate({
-        "top": "50%",
-        "left": "65%"
-    },1500).animate({
-            "top": "20%",
-            "left": "15%"
-    },"fast");
-
-    $(".imagencentral-2").animate({
-        "margin-top": "500px"
-    },1200).animate({
-        "margin-top": "-200px"
-    },"slow");
-
-    $(".titulocentral-2").animate({
-        "margin-top": "-700px"
-    },800).animate({
-        "margin-top": "-40px"
-    },"slow");
-
-    $(".divimagencentral-2 .texto-2").animate({
-        "left":"25%",
-        "top": "90%"
-    },800).animate({
-        "left":"65%",
-        "top": "30%"
-    },"slow");
-
-    $(".casetera-2").animate({
-        "top": "90%",
-        "right":"-75%"
-    },800).animate({
-        "top": "90%",
-        "right":"20%"
-    },"slow");
-
-//////////////////////////////////////////////
-
-
-    
-  }
+ 
 
   
-
-  function white(){
-    $("#blond").hide("slow");
-    $("#ipa").hide("slow");
-    $("#sipa").hide("slow");
-    $("#white").show("slow");
-
-        /////////////////////////////////////////////
-    /////////EFECTOS WHITE/////////////////////////
-    /////////////////////////////////////////////
-    $(".tarjeta-3").animate({
-        "top": "50%",
-        "left": "65%"
-    },1500).animate({
-            "top": "20%",
-            "left": "15%"
-    },"fast");
-
-    $(".imagencentral-3").animate({
-        "margin-top": "500px"
-    },1200).animate({
-        "margin-top": "-200px"
-    },"slow");
-
-    $(".titulocentral-3").animate({
-        "margin-top": "-700px"
-    },800).animate({
-        "margin-top": "-40px"
-    },"slow");
-
-    $(".divimagencentral-3 .texto-3").animate({
-        "left":"25%",
-        "top": "90%"
-    },800).animate({
-        "left":"65%",
-        "top": "30%"
-    },"slow");
-
-    $(".casetera-3").animate({
-        "top": "90%",
-        "right":"-75%"
-    },800).animate({
-        "top": "90%",
-        "right":"20%"
-    },"slow");
-/////////////////////////////////////////////////////////////////
-  }
 
   
 
