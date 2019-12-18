@@ -9,6 +9,17 @@ body {
     background-size: 130%;
 }
 
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/loading.gif) 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
 @font-face {
     font-family: Proxima Nova Alt Bold;
     src: url(../webfonts/Proxima\ Nova\ Alt\ Bold.otf);
@@ -858,7 +869,7 @@ header{
         height: 50px;
         width: 100px;
         top: 90%;
-        right: 20%;
+        right: 0px;
         transform: rotate(12deg);
     }
     
@@ -871,7 +882,7 @@ header{
     
     .imagencentral-1{
         background: url(../images/bottle-ipa-detail.png);
-        margin-top: -200px;
+        margin-top: -170px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -883,8 +894,8 @@ header{
     
     .divimagencentral-1 .texto-1{
         position: absolute;
-        left:65%;
-        top: 800px;
+        left:15%;
+        top: 1000px;
         width: 250px;
         color: rgb(53, 1, 151);
         text-shadow: 1px 1px rgb(32, 2, 202);

@@ -2,15 +2,213 @@
 ///////////////////////PÁGINA DE CERVEZAS////////////////////////
 /////////////////////////////////////////////////////////////////
 
-$(window).on('load', function(){
-    ipa();
-});
+   /////////////////////////////////////////////
+    /////////EFECTOS IPA  Y  WHITE////////////////////////////
+    ///////////////////////////////////////////////
+    if (window.matchMedia("(max-width: 767px)").matches) {
+        function ipa(){
+            $("#blond").hide("slow");
+            $("#ipa").show("slow");
+            $("#sipa").hide("slow");
+            $("#white").hide("slow");
+        ///////////////////////////////////////////////
+            $(".tarjeta-1").animate({
+                "top": "50%",
+                "left": "65%"
+            },1500).animate({
+                    "top": "20%",
+                    "left": "15%"
+            },"fast");
+
+            $(".imagencentral-1").animate({
+                "margin-top": "500px"
+            },1200).animate({
+                "margin-top": "-170px"
+            },"slow");
+
+            $(".titulocentral-1").animate({
+                "margin-top": "-700px"
+            },800).animate({
+                "margin-top": "-40px"
+            },"slow");
+
+            $(".divimagencentral-1 .texto-1").animate({
+                "left":"25%",
+                "top": "90%"
+            },800).animate({
+                "left":"15%",
+                "top": "1000px"
+            },"slow");
+
+            $(".casetera-1").animate({
+                "top": "90%",
+                "right":"-75px"
+            },800).animate({
+                "top": "90%",
+                "right":"0px"
+            },"slow");
+        ////////////////////////////////////////////////////
+            
+
+        }
+        function white(){
+            $("#blond").hide("slow");
+            $("#ipa").hide("slow");
+            $("#sipa").hide("slow");
+            $("#white").show("slow");
+        ///////////////////////////////////////////////
+            $(".tarjeta-3").animate({
+                "top": "50%",
+                "left": "65%"
+            },1500).animate({
+                    "top": "20%",
+                    "left": "15%"
+            },"fast");
+
+            $(".imagencentral-3").animate({
+                "margin-top": "500px"
+            },1200).animate({
+                "margin-top": "-170px"
+            },"slow");
+
+            $(".titulocentral-3").animate({
+                "margin-top": "-700px"
+            },800).animate({
+                "margin-top": "-40px"
+            },"slow");
+
+            $(".divimagencentral-3 .texto-3").animate({
+                "left":"25%",
+                "top": "90%"
+            },800).animate({
+                "left":"15%",
+                "top": "1000px"
+            },"slow");
+
+            $(".casetera-3").animate({
+                "top": "90%",
+                "right":"-75px"
+            },800).animate({
+                "top": "90%",
+                "right":"0px"
+            },"slow");
+        ////////////////////////////////////////////////////
+            
+
+        }
+}else{
+    function ipa(){
+        $("#blond").hide("slow");
+        $("#ipa").show("slow");
+        $("#sipa").hide("slow");
+        $("#white").hide("slow");
+    ///////////////////////////////////////////////
+        $(".tarjeta-1").animate({
+            "top": "50%",
+            "left": "65%"
+        },1500).animate({
+                "top": "20%",
+                "left": "15%"
+        },"fast");
+
+        $(".imagencentral-1").animate({
+            "margin-top": "500px"
+        },1200).animate({
+            "margin-top": "-200px"
+        },"slow");
+
+        $(".titulocentral-1").animate({
+            "margin-top": "-700px"
+        },800).animate({
+            "margin-top": "-40px"
+        },"slow");
+
+        $(".divimagencentral-1 .texto-1").animate({
+            "left":"25%",
+            "top": "90%"
+        },800).animate({
+            "left":"65%",
+            "top": "30%"
+        },"slow");
+
+        $(".casetera-1").animate({
+            "top": "90%",
+            "right":"-75%"
+        },800).animate({
+            "top": "90%",
+            "right":"20%"
+        },"slow");
+    ////////////////////////////////////////////////////
+        
+
+    }
+    function white(){
+        $("#blond").hide("slow");
+        $("#ipa").hide("slow");
+        $("#sipa").hide("slow");
+        $("#white").show("slow");
+    ///////////////////////////////////////////////
+        $(".tarjeta-3").animate({
+            "top": "50%",
+            "left": "65%"
+        },1500).animate({
+                "top": "20%",
+                "left": "15%"
+        },"fast");
+
+        $(".imagencentral-3").animate({
+            "margin-top": "500px"
+        },1200).animate({
+            "margin-top": "-200px"
+        },"slow");
+
+        $(".titulocentral-3").animate({
+            "margin-top": "-700px"
+        },800).animate({
+            "margin-top": "-40px"
+        },"slow");
+
+        $(".divimagencentral-3 .texto-3").animate({
+            "left":"25%",
+            "top": "90%"
+        },800).animate({
+            "left":"65%",
+            "top": "30%"
+        },"slow");
+
+        $(".casetera-3").animate({
+            "top": "90%",
+            "right":"-75%"
+        },800).animate({
+            "top": "90%",
+            "right":"20%"
+        },"slow");
+    ////////////////////////////////////////////////////
+        
+
+    }
+}
 
 
 $("#blond").hide();
-$("#ipa").show();
+$("#ipa").hide();
 $("#sipa").hide();
 $("#white").hide();
+
+$(window).on('load', function(){
+    $(".loader").fadeOut("slow");
+    $("#ipa").show("slow");
+});
+
+// $("#ipa").load(function() {
+//     $(".loader").fadeOut("slow");
+// });
+// $("#white").load(function() {
+//     $(".loader").fadeOut("slow");
+// });
+
+
+
 var index = 1;
 
 $(".flechaizq").on( "click", function() {
@@ -49,193 +247,7 @@ $(".flechaizq").on( "click", function() {
 
 
 
-      /////////////////////////////////////////////
-    /////////EFECTOS IPA////////////////////////////
-    ///////////////////////////////////////////////
-    if (window.matchMedia("(max-width: 767px)").matches) {
-            function ipa(){
-                $("#blond").hide("slow");
-                $("#ipa").show("slow");
-                $("#sipa").hide("slow");
-                $("#white").hide("slow");
-            ///////////////////////////////////////////////
-                $(".tarjeta-1").animate({
-                    "top": "50%",
-                    "left": "65%"
-                },1500).animate({
-                        "top": "20%",
-                        "left": "15%"
-                },"fast");
-
-                $(".imagencentral-1").animate({
-                    "margin-top": "500px"
-                },1200).animate({
-                    "margin-top": "-170px"
-                },"slow");
-
-                $(".titulocentral-1").animate({
-                    "margin-top": "-700px"
-                },800).animate({
-                    "margin-top": "-40px"
-                },"slow");
-
-                $(".divimagencentral-1 .texto-1").animate({
-                    "left":"25%",
-                    "top": "90%"
-                },800).animate({
-                    "left":"15%",
-                    "top": "1000px"
-                },"slow");
-
-                $(".casetera-1").animate({
-                    "top": "90%",
-                    "right":"-75px"
-                },800).animate({
-                    "top": "90%",
-                    "right":"0px"
-                },"slow");
-            ////////////////////////////////////////////////////
-                
-
-            }
-            function white(){
-                $("#blond").hide("slow");
-                $("#ipa").hide("slow");
-                $("#sipa").hide("slow");
-                $("#white").show("slow");
-            ///////////////////////////////////////////////
-                $(".tarjeta-3").animate({
-                    "top": "50%",
-                    "left": "65%"
-                },1500).animate({
-                        "top": "20%",
-                        "left": "15%"
-                },"fast");
-
-                $(".imagencentral-3").animate({
-                    "margin-top": "500px"
-                },1200).animate({
-                    "margin-top": "-170px"
-                },"slow");
-
-                $(".titulocentral-3").animate({
-                    "margin-top": "-700px"
-                },800).animate({
-                    "margin-top": "-40px"
-                },"slow");
-
-                $(".divimagencentral-3 .texto-3").animate({
-                    "left":"25%",
-                    "top": "90%"
-                },800).animate({
-                    "left":"15%",
-                    "top": "1000px"
-                },"slow");
-
-                $(".casetera-3").animate({
-                    "top": "90%",
-                    "right":"-75px"
-                },800).animate({
-                    "top": "90%",
-                    "right":"0px"
-                },"slow");
-            ////////////////////////////////////////////////////
-                
-
-            }
-    }else{
-        function ipa(){
-            $("#blond").hide("slow");
-            $("#ipa").show("slow");
-            $("#sipa").hide("slow");
-            $("#white").hide("slow");
-        ///////////////////////////////////////////////
-            $(".tarjeta-1").animate({
-                "top": "50%",
-                "left": "65%"
-            },1500).animate({
-                    "top": "20%",
-                    "left": "15%"
-            },"fast");
-
-            $(".imagencentral-1").animate({
-                "margin-top": "500px"
-            },1200).animate({
-                "margin-top": "-200px"
-            },"slow");
-
-            $(".titulocentral-1").animate({
-                "margin-top": "-700px"
-            },800).animate({
-                "margin-top": "-40px"
-            },"slow");
-
-            $(".divimagencentral-1 .texto-1").animate({
-                "left":"25%",
-                "top": "90%"
-            },800).animate({
-                "left":"65%",
-                "top": "30%"
-            },"slow");
-
-            $(".casetera-1").animate({
-                "top": "90%",
-                "right":"-75%"
-            },800).animate({
-                "top": "90%",
-                "right":"20%"
-            },"slow");
-        ////////////////////////////////////////////////////
-            
-
-        }
-        function white(){
-            $("#blond").hide("slow");
-            $("#ipa").hide("slow");
-            $("#sipa").hide("slow");
-            $("#white").show("slow");
-        ///////////////////////////////////////////////
-            $(".tarjeta-3").animate({
-                "top": "50%",
-                "left": "65%"
-            },1500).animate({
-                    "top": "20%",
-                    "left": "15%"
-            },"fast");
-
-            $(".imagencentral-3").animate({
-                "margin-top": "500px"
-            },1200).animate({
-                "margin-top": "-200px"
-            },"slow");
-
-            $(".titulocentral-3").animate({
-                "margin-top": "-700px"
-            },800).animate({
-                "margin-top": "-40px"
-            },"slow");
-
-            $(".divimagencentral-3 .texto-3").animate({
-                "left":"25%",
-                "top": "90%"
-            },800).animate({
-                "left":"65%",
-                "top": "30%"
-            },"slow");
-
-            $(".casetera-3").animate({
-                "top": "90%",
-                "right":"-75%"
-            },800).animate({
-                "top": "90%",
-                "right":"20%"
-            },"slow");
-        ////////////////////////////////////////////////////
-            
-
-        }
-    }
-
+   
  
 
   
