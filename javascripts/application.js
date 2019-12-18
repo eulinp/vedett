@@ -118,13 +118,14 @@ $(".menuexit").click(function (e) {
 
 
 if (window.matchMedia("(max-width: 767px)").matches) {
-$(function() {
 
-  $(window).scroll(function() {
-    $("#bottle1").effect( "shake", {times:6}, 700 );
-  });
+	$(function() {
 
-});
+		$(window).mousemove(function() {
+			$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
+		});
+
+	});
 
 
 }
