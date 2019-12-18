@@ -119,14 +119,28 @@ $(".menuexit").click(function (e) {
 
 if (window.matchMedia("(max-width: 767px)").matches) {
 
+
 	$(function() {
 
 
-		$(window).scroll(function() {
-			$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
-		});
+			$(window).scroll(function() {
+				console.log(window.scrollY);
+				if ($(this).scrollTop() > 300 && $(this).scrollTop() <= 350){
+					$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
+				}
+				else if ($(this).scrollTop() > 450 && $(this).scrollTop() <= 490){
+					$("#bottle3").effect( "shake", {times:12, distance:3}, 700 );
+				}
+				else ($(this).scrollTop() > 600){
+					$("#bottle5").effect( "shake", {times:12, distance:3}, 700 );
+				}
+				
 
+			});
+		
 	});
+
+
 
 
 }
