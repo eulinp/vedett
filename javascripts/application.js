@@ -133,10 +133,10 @@ if (window.matchMedia("(max-width: 767px)").matches) {
 				else if ($(this).scrollTop() > 300 && $(this).scrollTop() <= 350){
 					$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
 				}
-				if ($(this).scrollTop() > 450 && $(this).scrollTop() <= 490){
+				else if ($(this).scrollTop() > 450 && $(this).scrollTop() <= 490){
 					$("#bottle3").effect( "shake", {times:12, distance:3}, 700 );
 				}
-				if ($(this).scrollTop() > 500 && $(this).scrollTop() <= 550){
+				else if ($(this).scrollTop() > 500 && $(this).scrollTop() <= 550){
 					$("#bottle5").effect( "shake", {times:12, distance:3}, 700 );
 				}
 				
