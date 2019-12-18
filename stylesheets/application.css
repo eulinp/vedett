@@ -50,6 +50,66 @@ header{
     /* mobile first */
 @media (max-width: 767px) {
 
+         /*////////////////////////////////////////////////////////////
+    ///////////////////////PAGINA DE CONTACTO//////////////////////////
+    ////////////////////////////////////////////////////////////*/
+    .contacto{
+        background: url(../images/bg-browser-gate.png);
+        position: absolute;
+        width: 98%;
+        height: 500px;
+        margin-left: 0px;
+        margin-top:180px;
+        z-index: 1;
+        background-repeat: no-repeat;
+    }
+    .contacto .meetourbeersTitulo{
+        position: absolute;
+        margin-top: 50px;
+        left: 30px;
+    }
+    .contacto .meetourbeersSubtitulo{
+        position: absolute;
+        margin-top: 110px;
+        left: 30px;
+    }
+
+    .direccion{
+        position: absolute;
+        margin-top: 190px;
+        left: 70px;
+        font-family: Proxima Nova Alt bold;
+        font-size: 15pt;
+    }
+
+    .direccion .horario{
+        position: absolute;
+        margin-top: 0px;
+        left: -10px;
+        width: 200px;
+        transform: rotate(-2deg);
+    }
+    .direccion .comunicate{
+        position: absolute;
+        margin-top: 130px;
+        left: -10px;
+        width: 200px;
+        transform: rotate(-3deg);
+    }
+
+.contacto .supermarket{
+    
+    margin-top: 450px;
+
+    margin-left: 30px;
+    
+}
+
+.contacto img{
+    cursor: pointer;
+}
+
+
     .vedett-label {
         width: 115px;
         -moz-transition: -moz-transform 440ms cubic-bezier(0.95, 0.05, 0.795, 0.035), opacity 220ms ease-in-out 110ms;
@@ -1535,6 +1595,67 @@ header{
   /* tabletas */
   @media (min-width: 768px) {
 
+     /*////////////////////////////////////////////////////////////
+    ///////////////////////PAGINA DE CONTACTO//////////////////////////
+    ////////////////////////////////////////////////////////////*/
+    .contacto{
+        background: url(../images/bg-browser-gate.png);
+        position: absolute;
+        width: 800px;
+        height: 400px;
+        margin-left: 15%;
+        margin-top:0px;
+        z-index: 1;
+        background-repeat: no-repeat;
+        transform: rotate(-2deg);
+    }
+    .contacto .meetourbeersTitulo{
+        position: absolute;
+        margin-top: 50px;
+        left: 0px;
+    }
+    .contacto .meetourbeersSubtitulo{
+        position: absolute;
+        margin-top: 50px;
+        left: 240px;
+    }
+
+    .direccion{
+        position: absolute;
+        margin-top: 150px;
+        left: 70px;
+        font-family: Proxima Nova Alt bold;
+        font-size: 15pt;
+    }
+
+    .direccion .horario{
+        position: absolute;
+        margin-top: 0px;
+        left: -20px;
+        width: 200px;
+        transform: rotate(-2deg);
+    }
+    .direccion .comunicate{
+        position: absolute;
+        margin-top: 70px;
+        left: 250px;
+        width: 200px;
+        transform: rotate(2deg);
+    }
+
+.contacto .supermarket{
+    
+    margin-top: 280px;
+    transform: rotateY(180deg);
+    margin-left: 400px;
+    
+}
+
+.contacto img{
+    cursor: pointer;
+}
+
+
    /*////////////////////////////////////////////////////////////
     ///////////////////////PAGINA DE IPA//////////////////////////
     ////////////////////////////////////////////////////////////*/
@@ -3008,6 +3129,59 @@ header{
 
 /* pantallas grandes */
 @media (min-width: 1024px) {
+ /*////////////////////////////////////////////////////////////
+    ///////////////////////PAGINA DE CONTACTO//////////////////////////
+    ////////////////////////////////////////////////////////////*/
+    .contacto{
+        background: url(../images/bg-browser-gate.png);
+        position: absolute;
+        width: 800px;
+        height: 400px;
+        margin-left: 30%;
+        z-index: 1;
+        background-repeat: no-repeat;
+    }
+    .contacto .meetourbeersTitulo{
+        position: absolute;
+        margin-top: 50px;
+        left: 0px;
+    }
+    .contacto .meetourbeersSubtitulo{
+        position: absolute;
+        margin-top: 50px;
+        left: 240px;
+    }
+
+    .direccion{
+        position: absolute;
+        margin-top: 150px;
+        left: 70px;
+        font-family: Proxima Nova Alt bold;
+        font-size: 15pt;
+    }
+
+    .direccion .horario{
+        position: absolute;
+        margin-top: 0px;
+        left: -20px;
+        width: 200px;
+    }
+    .direccion .comunicate{
+        position: absolute;
+        margin-top: 70px;
+        left: 250px;
+        width: 200px;
+    }
+
+.contacto .supermarket{
+    
+    margin-top: 300px;
+    transform: rotateY(180deg);
+}
+
+.contacto img{
+    cursor: pointer;
+}
 
    /*////////////////////////////////////////////////////////////
     ///////////////////////PAGINA DE IPA//////////////////////////
