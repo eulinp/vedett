@@ -1432,7 +1432,8 @@ header{
     
     .num2{
         background: url(../images/bottle-ipa-overview-award.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 30%;
         height: 220px;
     }
@@ -1444,7 +1445,8 @@ header{
         }
     .num3{
         background: url(../images/bottle-white-overview-award.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 30%;
         height: 220px;
     }
@@ -2965,7 +2967,8 @@ header{
     
     .num2{
         background: url(../images/bottle-ipa-overview-award.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 25%;
         height: 420px;
     }
@@ -2977,7 +2980,8 @@ header{
       }
     .num3{
         background: url(../images/bottle-white-overview-award.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 25%;
         height: 420px;
         margin-top: 300px;
@@ -4828,7 +4832,8 @@ header{
     
     .num2{
         background: url(../images/bottle-ipa-overview-award.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 17%;
         height: 400px;
     }
@@ -4840,7 +4845,8 @@ header{
       }
     .num3{
         background: url(../images/bottle-white-overview-award.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 17%;
         height: 400px;
     }
