@@ -124,16 +124,22 @@ if (window.matchMedia("(max-width: 767px)").matches) {
 
 
 			$(window).scroll(function() {
-				console.log(window.scrollY);
-				if ($(this).scrollTop() > 300 && $(this).scrollTop() <= 350){
+				if ($(this).scrollTop() <= 300){
+					$("#bottle1").effect( "shake", {times:0, distance:0.1}, 1000 );
+					$("#bottle3").effect( "shake", {times:0, distance:0.1}, 1000 );
+					$("#bottle5").effect( "shake", {times:0, distance:0.1}, 1000 );
+				}
+
+				else if ($(this).scrollTop() > 300 && $(this).scrollTop() <= 350){
 					$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
 				}
-				else if ($(this).scrollTop() > 450 && $(this).scrollTop() <= 490){
+				if ($(this).scrollTop() > 450 && $(this).scrollTop() <= 490){
 					$("#bottle3").effect( "shake", {times:12, distance:3}, 700 );
 				}
-				else ($(this).scrollTop() > 600){
+				if ($(this).scrollTop() > 500 && $(this).scrollTop() <= 550){
 					$("#bottle5").effect( "shake", {times:12, distance:3}, 700 );
 				}
+				
 				
 
 			});
