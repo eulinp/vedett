@@ -528,18 +528,19 @@ header{
     
     .hashtag{
         position: absolute;
-        margin-top: 590px;
+        margin-top: 510px;
         margin-left: -10px;
         width: 100%;
         text-align: center;
-        transform: rotate(-4deg);
+        transform: rotate(0deg);
     }
     
     .hashtagtexto{
         font-family: arial black;
         font-size: 22px;
         font-weight: bold;
-        color: rgba(161, 147, 147, 0.534);
+        color: rgba(223, 28, 28, 0.699);
+        transform: rotate(0deg);
         
     }
     
