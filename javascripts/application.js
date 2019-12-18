@@ -116,32 +116,25 @@ $(".menuexit").click(function (e) {
 
 
 
-
 if (window.matchMedia("(max-width: 767px)").matches) {
 
 
 	$(function() {
 
+	
 
-			$(window).scroll(function() {
-				if ($(this).scrollTop() <= 300){
-					$("#bottle1").effect( "shake", {times:0, distance:0.1}, 1000 );
-					$("#bottle3").effect( "shake", {times:0, distance:0.1}, 1000 );
-					$("#bottle5").effect( "shake", {times:0, distance:0.1}, 1000 );
-				}
-
-				else if ($(this).scrollTop() > 300 && $(this).scrollTop() <= 350){
+			$(document).on("touchmove", function () {
+				console.log(scrollY);
+				if (scrollY > 400){
 					$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
-				}
-				else if ($(this).scrollTop() > 450 && $(this).scrollTop() <= 490){
 					$("#bottle3").effect( "shake", {times:12, distance:3}, 700 );
-				}
-				else if ($(this).scrollTop() > 500 && $(this).scrollTop() <= 550){
 					$("#bottle5").effect( "shake", {times:12, distance:3}, 700 );
+				}else{
+					$("#bottle1").stop(true);
+					$("#bottle3").stop(true);
+					$("#bottle5").stop(true);
 				}
 				
-				
-
 			});
 		
 	});
