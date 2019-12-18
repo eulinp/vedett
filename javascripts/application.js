@@ -121,7 +121,8 @@ if (window.matchMedia("(max-width: 767px)").matches) {
 
 	$(function() {
 
-		$(window).mousemove(function() {
+
+		$(window).scroll(function() {
 			$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
 		});
 
