@@ -4,13 +4,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta charset="utf-8" />
 
-	<title>Vedett a Belgian beer brand</title>
+	<title>Vedett | Una marca de cerveza Belga</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
 
-	<meta name="description" content="Vedett is a Belgian beer brand with a somewhat different attitude." />
-	<meta name="distribution" content="Global" />
+	<meta name="description" content="Vedett es una marca de cerveza belga con una actitud algo diferente." />
+	<meta name="distribution" content="Colombia" />
 	<meta name="robots" content="index,follow" />
 	<meta name="revisit-after" content="31 Days" />
 	<meta name="author" content="Vedett" />
@@ -34,7 +34,7 @@
             <a href="index.html"><h3 class="rojo">INICIO</h3></a>
             <a href="liquido-delicioso.html"><h3>NUESTRAS CERVEZAS</h3></a>
             <a href="contactanos.html"><h3>CONTÁCTANOS</h3></a>
-            <a href="https://clubdelacerveza.co/"><h3>TIENDA</h3></a>
+            <a href="https://clubdelacerveza.co/categoria-producto/cerveza-belga/"><h3>TIENDA</h3></a>
         </div>
       </div>
 	
@@ -100,7 +100,7 @@
         <div class="bottles">
 
           <div class="col">
-              <a href="index.html" id="bottle1" class="bottle1"><img src="images/flipflop-bottle.png" alt=""></a>
+              <a href="https://clubdelacerveza.co/categoria-producto/cerveza-belga/" id="bottle1" class="bottle1"><img src="images/flipflop-bottle.png" alt=""></a>
           </div>
 
           <!-- <div class="col">
@@ -196,7 +196,7 @@
 
       <div class="row">
         <div class="col">
-          <a href="https://clubdelacerveza.co/" class="supermarket">
+          <a href="https://clubdelacerveza.co/categoria-producto/cerveza-belga/" class="supermarket">
             <div class="tituloimagen">
               <img class="carritoimagen" src="images/carrito.png" alt="">
             </div>
@@ -206,7 +206,7 @@
           </a>
         </div>
 
-        <a href="https://clubdelacerveza.co/" class="botellafixed"></a>
+        <a href="https://clubdelacerveza.co/categoria-producto/cerveza-belga/" class="botellafixed"></a>
       </div>
 
     
@@ -220,6 +220,37 @@
       </div>
     </div>
 
+    
+    <div class="slide">
+      <img class="mySlides" src="images/slide1.jpg" style="width:100%">
+      <img class="mySlides" src="images/slide2.jpg" style="width:100%">
+      <img class="mySlides" src="images/slide3.jpg" style="width:100%">
+      <img class="mySlides" src="images/slide4.jpg" style="width:100%">
+      <img class="mySlides" src="images/slide5.jpg" style="width:100%">
+      <img class="mySlides" src="images/slide6.jpg" style="width:100%">
+      <button class="botonl btn btn-danger" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="botonr btn btn-danger" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+  
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
     
     <script src="javascripts/jquery-3.3.1.min.js"></script>
   <script src="javascripts/application.js"></script>

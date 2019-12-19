@@ -9,6 +9,12 @@ body {
     background-size: 130%;
 }
 
+
+
+a:link{
+    text-decoration:none;
+}
+
 .loader {
     position: fixed;
     left: 0px;
@@ -39,6 +45,7 @@ body {
 
 a{
     color:black !important;
+    cursor: pointer;
 }
 
 header{
@@ -60,6 +67,29 @@ header{
     
     /* mobile first */
 @media (max-width: 767px) {
+
+    .mySlides {display:none;
+        border-radius: 100px;
+        }
+        .slide{
+            position: absolute;
+            top: 270px;
+            right: 15%;
+            width: 150px;
+            transform: rotate(6deg);
+        display:none;}
+            .botonl{
+                position: relative;
+                top: -90px;
+                left: -30px;
+            }
+            .botonr{
+                position: relative;
+                top: -90px;
+                right: -105px;
+            }
+            .slide:hover {filter: saturate(180%);}
+        
 
     .flechader{
         position: fixed;
@@ -704,6 +734,18 @@ header{
     .botellafixed{
         background-size: contain;
         display: none;
+        background-image: url(../images/bottle-ipa.png);
+        height: 100px;
+        right: 24px;
+        width: 40px;
+        z-index: 1001;
+        position: fixed;
+        bottom: 40px;
+    }
+
+    .botellafixed2{
+        background-size: contain;
+        display: none;
         background-image: url(../images/bottle-white.png);
         height: 100px;
         right: 24px;
@@ -712,6 +754,8 @@ header{
         position: fixed;
         bottom: 40px;
     }
+
+  
     
     
     
@@ -908,12 +952,12 @@ header{
         position: absolute;
         width: 100%;
         text-align: center;
-        color: rgb(255, 7, 7);
         font-size: 60pt;
         font-family: arial black;
         transform: rotate(-2deg);
         margin-top: -40px;
         z-index: 200;
+        color: rgb(255, 7, 7) !important;
     }
     
     .copa-1 {
@@ -1086,12 +1130,12 @@ header{
         position: absolute;
         width: 100%;
         text-align: center;
-        color: rgb(255, 7, 7);
         font-size: 60pt;
         font-family: arial black;
         transform: rotate(-2deg);
         margin-top: -40px;
         z-index: 200;
+        color: rgb(255, 7, 7) !important;
     }
     
     .copa-3 {
@@ -1445,6 +1489,28 @@ header{
   /* tabletas */
   @media (min-width: 768px) {
 
+    .mySlides {display:none;
+        border-radius: 100px;
+        }
+        .slide{
+            position: absolute;
+            top: 20%;
+            right: 10%;
+            width: 150px;
+            transform: rotate(6deg);}
+            .botonl{
+                position: relative;
+                top: -90px;
+                left: -30px;
+            }
+            .botonr{
+                position: relative;
+                top: -90px;
+                right: -105px;
+            }
+            .slide:hover {filter: saturate(180%);}
+        
+
     .flechader{
         position: fixed;
         background: url(../images/arrow-right.png);
@@ -1684,12 +1750,12 @@ header{
         position: absolute;
         width: 100%;
         text-align: center;
-        color: rgb(255, 7, 7);
         font-size: 60pt;
         font-family: arial black;
         transform: rotate(-2deg);
         margin-top: -40px;
         z-index: 200;
+        color: rgb(255, 7, 7) !important;
     }
     
     .copa-1 {
@@ -1861,12 +1927,12 @@ header{
         position: absolute;
         width: 100%;
         text-align: center;
-        color: rgb(255, 7, 7);
         font-size: 60pt;
         font-family: arial black;
         transform: rotate(-2deg);
         margin-top: -40px;
         z-index: 200;
+        color: rgb(255, 7, 7) !important;
     }
     
     .copa-3 {
@@ -2433,6 +2499,18 @@ header{
         position: fixed;
         bottom: 40px;
     }
+
+    .botellafixed2{
+        background-size: contain;
+        display: block;
+        background-image: url(../images/bottle-ipa.png);
+        height: 100px;
+        right: 24px;
+        width: 40px;
+        z-index: 1001;
+        position: fixed;
+        bottom: 40px;
+    }
     
     
     
@@ -2809,6 +2887,28 @@ header{
 /* pantallas grandes */
 @media (min-width: 1024px) {
 
+    .mySlides {display:none;
+        border-radius: 100px;
+        }
+        .slide{
+            position: absolute;
+            top: 30%;
+            right: 15%;
+            width: 300px;
+            transform: rotate(6deg);}
+            .botonl{
+                position: relative;
+                top: -160px;
+                left: -20px;
+            }
+            .botonr{
+                position: relative;
+                top: -160px;
+                right: -250px;
+            }
+            .slide:hover {filter: saturate(180%);}
+        
+
     .flechader{
         position: fixed;
         background: url(../images/arrow-right.png);
@@ -3042,12 +3142,12 @@ header{
         position: absolute;
         width: 100%;
         text-align: center;
-        color: rgb(255, 7, 7);
         font-size: 60pt;
         font-family: arial black;
         transform: rotate(-2deg);
         margin-top: -40px;
         z-index: 200;
+        color: rgb(255, 7, 7) !important;
     }
     
     .copa-1 {
@@ -3219,12 +3319,12 @@ header{
         position: absolute;
         width: 100%;
         text-align: center;
-        color: rgb(255, 7, 7);
         font-size: 60pt;
         font-family: arial black;
         transform: rotate(-2deg);
         margin-top: -40px;
         z-index: 200;
+        color: rgb(255, 7, 7) !important;
     }
     
     .copa-3 {
@@ -3772,6 +3872,18 @@ header{
     }
     
     .botellafixed{
+        background-size: contain;
+        display: block;
+        background-image: url(../images/bottle-ipa.png);
+        height: 100px;
+        right: 24px;
+        width: 40px;
+        z-index: 1001;
+        position: fixed;
+        bottom: 40px;
+    }
+
+    .botellafixed2{
         background-size: contain;
         display: block;
         background-image: url(../images/bottle-white.png);
