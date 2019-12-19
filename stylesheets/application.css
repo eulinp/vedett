@@ -3080,7 +3080,7 @@ header{
         width: 200px;
         transform: rotate(-6deg);
         top: -150%;
-        left: -300%;
+        left: -700px;
         z-index: -22;
     }
     
@@ -3175,7 +3175,7 @@ header{
     .casetera-3{
         position: absolute;
         background: url(../images/img-vhs-tape.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         height: 80px;
         width: 90%;

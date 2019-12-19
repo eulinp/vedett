@@ -124,7 +124,6 @@ if (window.matchMedia("(max-width: 767px)").matches) {
 	
 
 			$(document).on("touchmove", function () {
-				console.log(scrollY);
 				if (scrollY > 400){
 					$("#bottle1").effect( "shake", {times:12, distance:3}, 700 );
 					$("#bottle3").effect( "shake", {times:12, distance:3}, 700 );
