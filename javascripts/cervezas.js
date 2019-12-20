@@ -107,8 +107,8 @@
             "top": "50%",
             "left": "65%"
         },1500).animate({
-                "top": "20%",
-                "left": "15%"
+                "top": "30%",
+                "left": "12%"
         },"fast");
 
         $(".imagencentral-1").animate({
@@ -128,7 +128,7 @@
             "top": "90%"
         },800).animate({
             "left":"65%",
-            "top": "30%"
+            "top": "35%"
         },"slow");
 
         $(".casetera-1").animate({
@@ -139,8 +139,6 @@
             "right":"20%"
         },"slow");
     ////////////////////////////////////////////////////
-        
-
     }
     function white(){
         $("#blond").hide("slow");
@@ -152,8 +150,8 @@
             "top": "50%",
             "left": "65%"
         },1500).animate({
-                "top": "20%",
-                "left": "15%"
+                "top": "30%",
+                "left": "10%"
         },"fast");
 
         $(".imagencentral-3").animate({
@@ -173,7 +171,7 @@
             "top": "90%"
         },800).animate({
             "left":"65%",
-            "top": "30%"
+            "top": "35%"
         },"slow");
 
         $(".casetera-3").animate({
