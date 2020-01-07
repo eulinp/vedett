@@ -1,9 +1,5 @@
 $( document ).ready(function() {
 
-
-  
-
-
   if($.cookie('mayor') != 'true'){
     $("#myModal").modal("toggle");
   }
@@ -18,7 +14,6 @@ $( document ).ready(function() {
       $.cookie('mayor', 'true', { expires: 7, path: '' });
 
     })
-    
 })
 
 
