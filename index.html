@@ -15,15 +15,51 @@
 	<meta name="copyright" content="© 2019 Club de la Cerveza">
 
 	<link rel="shortcut icon" href="images/favicon.ico">
-
 	<link href="stylesheets/application.css" rel="stylesheet" />
-
   <link rel="stylesheet" type="text/css" href="stylesheets/all.css">
-
-	<link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <script src="javascripts/jquery-3.3.1.min.js"></script>
+  <script src="javascripts/jquery-ui.min.js"></script>
+  <script src="javascripts/bootstrap.js"></script>
+  <script src="javascripts/jquery.cookie.js"></script>
   
 </head>
 <body>
+
+<div class="sinEdadSuficiente">
+  <div class="imgSinEdad">
+    <span class="logoSinEdad"><img src="images/Vedettogo_bier.png" width="200px" alt=""></span><br>
+    <h2>SENTIMOS QUE TUS PADRES NO LO HAYAN HECHO <span class="rojo">ANTES</span>.</h2>
+  </div>
+  
+</div>
+  
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title mx-auto" id="exampleModalLongTitle">👮 Su identificación por favor 👮</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span class="clos" aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p class="w-75 mx-auto h5 text-center my-4">¿Tiene usted la edad legal para beber en su país?</p>
+        
+        <form accept-charset="utf-8">
+        	<input type="button" id="conEdad" class="btn btn-dark float-left ml-5"  data-dismiss="modal" value="Yes 😃">
+          <input type="button" id="sinEdad" data-dismiss="modal" class="btn btn-dark float-right mr-5" value="No ☹️">
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
     <div class="menu">
       <div class="menuexit"><img src="images/close.svg" alt=""></div>
@@ -193,7 +229,7 @@
 
       <div class="row">
         <div class="col">
-          <a href="https://clubdelacerveza.co/categoria-producto/vedett/" class="supermarket">
+          <a  target="_blank" href="https://clubdelacerveza.co/categoria-producto/vedett/" class="supermarket">
             <div class="tituloimagen">
               <img class="carritoimagen" src="images/carrito.png" alt="">
             </div>
@@ -203,7 +239,7 @@
           </a>
         </div>
 
-        <a href="https://clubdelacerveza.co/categoria-producto/vedett/" class="botellafixed"></a>
+        <a  target="_blank" href="https://clubdelacerveza.co/categoria-producto/vedett/" class="botellafixed"></a>
       </div>
 
     
@@ -249,9 +285,9 @@
   }
   </script>
     
-    <script src="javascripts/jquery-3.3.1.min.js"></script>
+    
   <script src="javascripts/application.js"></script>
-  <script src="javascripts/jquery-ui.min.js"></script>
+
 
 
 </body>

@@ -1,3 +1,27 @@
+$( document ).ready(function() {
+
+
+  
+
+
+  if($.cookie('mayor') != 'true'){
+    $("#myModal").modal("toggle");
+  }
+
+    $("#sinEdad").click(function(){
+      $(".menufondo").hide();
+      $(".botellafixed").hide();
+      $(".sinEdadSuficiente").show();
+    })
+
+    $("#conEdad").click(function(){
+      $.cookie('mayor', 'true', { expires: 7 });
+
+    })
+    
+})
+
+
 //MODIFICACION A CONOCENUESTRASCERVEZAS
 $(".conocenuestrascervezas").mouseover(function () { 
     $(".meetourbeersTitulo").css("color","red");
@@ -137,8 +161,25 @@ if (window.matchMedia("(max-width: 767px)").matches) {
 			});
 		
 	});
-
-
-
-
 }
+
+
+
+
+
+
+
+// $(function() {
+//   $("#fechaNacimiento").datepicker(
+//     {
+//       minDate: new Date(1900,1-1,1), maxDate: '-18Y',
+//       dateFormat: 'dd/mm/yy',
+//       defaultDate: new Date(1970,1-1,1),
+//       changeMonth: true,
+//       changeYear: true,
+//       yearRange: '-110:-18'
+//     }
+//   );
+// });
+
+
