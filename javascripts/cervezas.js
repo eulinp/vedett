@@ -1,3 +1,25 @@
+$( document ).ready(function() {
+
+
+  
+
+
+    if($.cookie('mayor') != 'true'){
+      $("#myModal").modal("toggle");
+    }
+  
+      $("#sinEdad").click(function(){
+        $(".menufondo").hide();
+        $(".botellafixed").hide();
+        $(".sinEdadSuficiente").show();
+      })
+  
+      $("#conEdad").click(function(){
+        $.cookie('mayor', 'true', { expires: 7, path: '' });
+  
+      })
+      
+  })
 /////////////////////////////////////////////////////////////////
 ///////////////////////PÁGINA DE CERVEZAS////////////////////////
 /////////////////////////////////////////////////////////////////
