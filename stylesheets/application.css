@@ -1255,9 +1255,7 @@ header{
     
     .texto p{
         color:black;
-        -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-        -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-        animation: neon1 1.5s ease-in-out infinite alternate;
+
         }
     
         @keyframes neon1 {
@@ -2681,9 +2679,7 @@ header{
     
     .texto p{
         color:black;
-        -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-        -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-        animation: neon1 1.5s ease-in-out infinite alternate;
+
       }
     
       @keyframes neon1 {
@@ -2798,6 +2794,7 @@ header{
         width: 25%;
         height: 420px;
         margin-top: 300px;
+        margin-top: 0px;
     }
     
     .num3:hover {
@@ -4097,9 +4094,7 @@ header{
     
     .texto p{
         color:black;
-        -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-        -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-        animation: neon1 1.5s ease-in-out infinite alternate;
+
       }
     
       @keyframes neon1 {
@@ -4222,6 +4217,7 @@ header{
         background-repeat: no-repeat;
         width: 17%;
         height: 400px;
+        margin-top: 0px;
     }
     
     .num3:hover {

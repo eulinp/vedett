@@ -11,9 +11,10 @@ $( document ).ready(function() {
     })
 
     $("#conEdad").click(function(){
-      $.cookie('mayor', 'true', { expires: 7, path: '' });
+      $.cookie('mayor', 'true', { expires: 7 });
 
     })
+    
 })
 
 
