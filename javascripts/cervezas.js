@@ -7,10 +7,10 @@
     ///////////////////////////////////////////////
     if (window.matchMedia("(max-width: 767px)").matches) {
         function ipa(){
-            $("#blond").hide("slow");
-            $("#ipa").show("slow");
-            $("#sipa").hide("slow");
-            $("#white").hide("slow");
+            // $("#blond").hide("slow");
+            // $("#ipa").show("slow");
+            // $("#sipa").hide("slow");
+            // $("#white").hide("slow");
         ///////////////////////////////////////////////
             $(".tarjeta-1").animate({
                 "top": "50%",
@@ -52,10 +52,10 @@
 
         }
         function white(){
-            $("#blond").hide("slow");
-            $("#ipa").hide("slow");
-            $("#sipa").hide("slow");
-            $("#white").show("slow");
+            // $("#blond").hide("slow");
+            // $("#ipa").hide("slow");
+            // $("#sipa").hide("slow");
+            // $("#white").show("slow");
         ///////////////////////////////////////////////
             $(".tarjeta-3").animate({
                 "top": "50%",
@@ -98,10 +98,10 @@
         }
 }else{
     function ipa(){
-        $("#blond").hide("slow");
-        $("#ipa").show("slow");
-        $("#sipa").hide("slow");
-        $("#white").hide("slow");
+        // $("#blond").hide("slow");
+        // $("#ipa").show("slow");
+        // $("#sipa").hide("slow");
+        // $("#white").hide("slow");
     ///////////////////////////////////////////////
         $(".tarjeta-1").animate({
             "top": "50%",
@@ -141,10 +141,10 @@
     ////////////////////////////////////////////////////
     }
     function white(){
-        $("#blond").hide("slow");
-        $("#ipa").hide("slow");
-        $("#sipa").hide("slow");
-        $("#white").show("slow");
+        // $("#blond").hide("slow");
+        // $("#ipa").hide("slow");
+        // $("#sipa").hide("slow");
+        // $("#white").show("slow");
     ///////////////////////////////////////////////
         $(".tarjeta-3").animate({
             "top": "50%",
@@ -194,8 +194,25 @@ $("#sipa").hide();
 $("#white").hide();
 
 $(window).on('load', function(){
+    var url = String(window.location.href);
+    var string = "?cerv=2";
+    var posicion = url.indexOf(string);
+    if(posicion != -1){
+            $("#blond").hide("slow");
+            $("#ipa").hide("slow");
+            $("#sipa").hide("slow");
+            $("#white").show("slow");
+    }else{
+            $("#blond").hide("slow");
+            $("#ipa").show("slow");
+            $("#sipa").hide("slow");
+            $("#white").hide("slow");
+    }
+        
+    
+
     $(".loader").fadeOut("slow");
-    $("#ipa").show("slow");
+    
 });
 
 // $("#ipa").load(function() {
@@ -215,9 +232,15 @@ $(".flechaizq").on( "click", function() {
         index = 2;
     }
     if(index == 1){
-        ipa();
+            $("#blond").hide("slow");
+            $("#ipa").show("slow");
+            $("#sipa").hide("slow");
+            $("#white").hide("slow");
     }else if(index == 2){
-        white();
+            $("#blond").hide("slow");
+            $("#ipa").hide("slow");
+            $("#sipa").hide("slow");
+            $("#white").show("slow");
     }else{
         index = 1;
     }
@@ -230,9 +253,15 @@ $(".flechaizq").on( "click", function() {
         index = 1;
     }
     if(index == 1){
-        ipa();
+            $("#blond").hide("slow");
+            $("#ipa").show("slow");
+            $("#sipa").hide("slow");
+            $("#white").hide("slow");
     }else if(index == 2){
-        white();
+            $("#blond").hide("slow");
+            $("#ipa").hide("slow");
+            $("#sipa").hide("slow");
+            $("#white").show("slow");
     }else{
         index = 1;
     }
