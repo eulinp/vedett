@@ -294,100 +294,100 @@ $(".flechaizq").on( "click", function() {
 
 
 
-//////////////////////////////////////////////////////////////
-/////////////////////////LÍQUIDO DELICIOSO////////////////////
-//////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////
+// /////////////////////////LÍQUIDO DELICIOSO////////////////////
+// //////////////////////////////////////////////////////////////
 
 
-$(".num1").mouseover(function () { 
-    $(".texto").show();
-    $(".nombrecerveza span").replaceWith("<span>BLOND</span>");
-    $(".nombrecerveza span").addClass("contenedorinvisible");
+// $(".num1").mouseover(function () { 
+//     $(".texto").show();
+//     $(".nombrecerveza span").replaceWith("<span>BLOND</span>");
+//     $(".nombrecerveza span").addClass("contenedorinvisible");
     
-});
+// });
 
-$(".num1").mouseout(function () { 
-    $(".texto").hide();
-    $(".nombrecerveza span").removeClass("contenedorinvisible");
-});
+// $(".num1").mouseout(function () { 
+//     $(".texto").hide();
+//     $(".nombrecerveza span").removeClass("contenedorinvisible");
+// });
 
-$(".num1").mouseover(function () { 
-    $(".descripcioncerveza span").replaceWith("<span>SNUGGLE</span>");
-    $(".descripcioncerveza span").addClass("contenedorinvisible2");
-});
+// $(".num1").mouseover(function () { 
+//     $(".descripcioncerveza span").replaceWith("<span>SNUGGLE</span>");
+//     $(".descripcioncerveza span").addClass("contenedorinvisible2");
+// });
 
-$(".num1").mouseout(function () { 
-    $(".descripcioncerveza span").removeClass("contenedorinvisible2");
-});
+// $(".num1").mouseout(function () { 
+//     $(".descripcioncerveza span").removeClass("contenedorinvisible2");
+// });
 
-//////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////
 
-$(".num2").mouseover(function () { 
-    $(".texto").show();
-    $(".nombrecerveza span").replaceWith("<span>IPA</span>");
-    $(".nombrecerveza span").addClass("contenedorinvisible");
+// $(".num2").mouseover(function () { 
+//     $(".texto").show();
+//     $(".nombrecerveza span").replaceWith("<span>IPA</span>");
+//     $(".nombrecerveza span").addClass("contenedorinvisible");
     
-});
+// });
 
-$(".num2").mouseout(function () { 
-    $(".texto").hide();
-    $(".nombrecerveza span").removeClass("contenedorinvisible");
-});
+// $(".num2").mouseout(function () { 
+//     $(".texto").hide();
+//     $(".nombrecerveza span").removeClass("contenedorinvisible");
+// });
 
-$(".num2").mouseover(function () { 
-    $(".descripcioncerveza span").replaceWith("<span>AMAS</span>");
-    $(".descripcioncerveza span").addClass("contenedorinvisible2");
-});
+// $(".num2").mouseover(function () { 
+//     $(".descripcioncerveza span").replaceWith("<span>AMAS</span>");
+//     $(".descripcioncerveza span").addClass("contenedorinvisible2");
+// });
 
-$(".num2").mouseout(function () { 
-    $(".descripcioncerveza span").removeClass("contenedorinvisible2");
-});
+// $(".num2").mouseout(function () { 
+//     $(".descripcioncerveza span").removeClass("contenedorinvisible2");
+// });
 
-//////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////
 
-$(".num3").mouseover(function () { 
-    $(".texto").show();
-    $(".nombrecerveza span").replaceWith("<span>WHITE</span>");
-    $(".nombrecerveza span").addClass("contenedorinvisible");
+// $(".num3").mouseover(function () { 
+//     $(".texto").show();
+//     $(".nombrecerveza span").replaceWith("<span>WHITE</span>");
+//     $(".nombrecerveza span").addClass("contenedorinvisible");
     
-});
+// });
 
-$(".num3").mouseout(function () { 
-    $(".texto").hide();
-    $(".nombrecerveza span").removeClass("contenedorinvisible");
-});
+// $(".num3").mouseout(function () { 
+//     $(".texto").hide();
+//     $(".nombrecerveza span").removeClass("contenedorinvisible");
+// });
 
-$(".num3").mouseover(function () { 
-    $(".descripcioncerveza span").replaceWith("<span>SWIRL</span>");
-    $(".descripcioncerveza span").addClass("contenedorinvisible2");
-});
+// $(".num3").mouseover(function () { 
+//     $(".descripcioncerveza span").replaceWith("<span>SWIRL</span>");
+//     $(".descripcioncerveza span").addClass("contenedorinvisible2");
+// });
 
-$(".num3").mouseout(function () { 
-    $(".descripcioncerveza span").removeClass("contenedorinvisible2");
-});
+// $(".num3").mouseout(function () { 
+//     $(".descripcioncerveza span").removeClass("contenedorinvisible2");
+// });
 
-//////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////
 
-$(".num4").mouseover(function () { 
-    $(".texto").show();
-    $(".nombrecerveza span").replaceWith("<span>SIPA</span>");
-    $(".nombrecerveza span").addClass("contenedorinvisible");
+// $(".num4").mouseover(function () { 
+//     $(".texto").show();
+//     $(".nombrecerveza span").replaceWith("<span>SIPA</span>");
+//     $(".nombrecerveza span").addClass("contenedorinvisible");
     
-});
+// });
 
-$(".num4").mouseout(function () { 
-    $(".texto").hide();
-    $(".nombrecerveza span").removeClass("contenedorinvisible");
-});
+// $(".num4").mouseout(function () { 
+//     $(".texto").hide();
+//     $(".nombrecerveza span").removeClass("contenedorinvisible");
+// });
 
-$(".num4").mouseover(function () { 
-    $(".descripcioncerveza span").replaceWith("<span>CARESS</span>");
-    $(".descripcioncerveza span").addClass("contenedorinvisible2");
-});
+// $(".num4").mouseover(function () { 
+//     $(".descripcioncerveza span").replaceWith("<span>CARESS</span>");
+//     $(".descripcioncerveza span").addClass("contenedorinvisible2");
+// });
 
-$(".num4").mouseout(function () { 
-    $(".descripcioncerveza span").removeClass("contenedorinvisible2");
-});
+// $(".num4").mouseout(function () { 
+//     $(".descripcioncerveza span").removeClass("contenedorinvisible2");
+// });
 
 
 
